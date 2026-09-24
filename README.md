@@ -86,7 +86,7 @@ Workflow-ът `.github/workflows/pages.yml` вече ползва `actions/confi
 
 | WordPress | Тук |
 |---|---|
-| ~183 Patreon-заключени поста | Изцяло изключени (без тийзър). Списък: `migration/excluded-patreon.txt` |
+| Заключени / абонаментски постове | Пропуснати; не се публикуват |
 | Коментари (16 публични) | Премахнати, без заместител |
 | Jetpack контактни форми (`/contact/`, `/contact-2/`, `/about/`) | Статична HTML форма към **Formspree** (`formspree_endpoint` в `_config.yml`, placeholder) |
 | Търсене `?s=` | Lunr търсене на [`/search/`](/search/) |
@@ -104,7 +104,6 @@ Workflow-ът `.github/workflows/pages.yml` вече ползва `actions/confi
 1. **Settings → Pages → Source: GitHub Actions.**
 2. Създайте Formspree форма с доставка към `gpbakalov@gmail.com` и сменете `formspree_endpoint` в `_config.yml` (сега е `https://formspree.io/f/YOUR_FORM_ID`).
 3. Когато сте готови за домейн: едната промяна на `baseurl`, файл `CNAME`, DNS (виж по-горе).
-4. Patreon материалите остават само в WordPress / Patreon — този сайт нарочно не ги публикува.
 
 ## Лиценз на съдържанието
 
