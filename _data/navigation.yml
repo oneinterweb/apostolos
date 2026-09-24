@@ -1,0 +1,15 @@
+main:
+  - title: "За АРЦ"
+    url: /about/
+  - title: "Контакт"
+    url: /contact/
+  - title: "Теми"
+    url: /category/статии/
+  - title: "YouTube"
+    url: https://www.youtube.com/channel/UC3wbdB5F9z7Oe6L0Fqyibyw
+  - title: "А/О"
+    url: https://www.patreon.com/apostolos
+  - title: "Пълен списък"
+    url: /year-archive/
+  - title: "Търсене"
+    url: /search/

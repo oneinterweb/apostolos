@@ -1,0 +1,931 @@
+{
+  "sitemap_urls": 601,
+  "resolved": 417,
+  "unresolved": 184,
+  "unresolved_by_reason": {
+    "excluded-patreon": 183,
+    "wp-post-format-archive-not-migrated": 1
+  },
+  "missing": [
+    {
+      "url": "https://apostolos.bg/%d0%b0%d0%b2%d0%b0%d0%bd%d1%82%d0%b0-%d0%b1%d0%be%d0%b3-%d0%b0%d0%b2%d0%b0%d0%bd%d1%82%d0%b0-%d1%81%d0%bf%d0%b0%d1%81%d0%b5%d0%bd%d0%b8%d0%b5-%d0%b0%d0%b2%d0%b0%d0%bd%d1%82%d0%b0-%d0%b2%d1%81%d0%b8/",
+      "path": "/аванта-бог-аванта-спасение-аванта-вси/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b0%d0%b7-%d0%bd%d0%b5-%d1%81%d1%8a%d0%bc-%d0%b5%d0%ba%d1%81%d0%bf%d0%b5%d1%80%d1%82%d0%b0-%d1%82%d0%b8-%d1%81%d0%b8/",
+      "path": "/аз-не-съм-експерта-ти-си/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b0%d0%ba%d1%86%d0%b8%d0%b8%d1%82%d0%b5-%d0%bd%d0%b0-%d0%bc%d0%be%d0%b4%d0%b5%d1%80%d0%bd%d0%b0-%d0%bf%d0%b0%d0%b4%d0%bd%d0%b0%d1%85%d0%b0-%d0%ba%d0%b0%d0%ba%d0%b2%d0%be-%d0%be%d0%b7%d0%bd%d0%b0/",
+      "path": "/акциите-на-модерна-паднаха-какво-озна/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b0%d1%80%d0%b0%d0%b1%d1%81%d0%ba%d0%b8-%d0%b8%d1%81%d1%82%d0%be%d1%80%d0%b8%d0%ba-%d0%bd%d1%8f%d0%bc%d0%b0-%d1%82%d0%b0%d0%ba%d0%be%d0%b2%d0%b0-%d0%bd%d0%b5%d1%89%d0%be-%d0%ba%d0%b0%d1%82%d0%be/",
+      "path": "/арабски-историк-няма-такова-нещо-като/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b0%d1%83%d0%b4%d0%b8%d0%be-%d0%b0%d0%b7-%d1%81%d1%8a%d0%bc-%d1%85%d1%80%d0%b8%d1%81%d1%82%d0%b8%d1%8f%d0%bd%d1%81%d0%ba%d0%b8-%d1%86%d0%b8%d0%be%d0%bd%d0%b8%d1%81%d1%82-%d0%bd%d1%8f%d0%ba%d0%b0/",
+      "path": "/аудио-аз-съм-християнски-ционист-няка/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b0%d1%83%d0%b4%d0%b8%d0%be-%d0%b7%d0%b0%d0%bf%d0%b0%d0%b4%d1%8a%d1%82-%d0%b7%d0%b0%d0%b2%d0%b8%d0%ba%d0%b0-%d0%b7%d0%b0-%d1%81%d0%b2%d0%be%d0%b1%d0%be%d0%b4%d0%b0/",
+      "path": "/аудио-западът-завика-за-свобода/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b0%d1%83%d0%b4%d0%b8%d0%be-%d0%b7%d0%b0-%d0%bf%d0%be%d0%bb%d0%b8%d1%86%d0%b5%d0%b9%d1%81%d0%ba%d0%be%d1%82%d0%be-%d0%bd%d0%b0%d1%81%d0%b8%d0%bb%d0%b8%d0%b5-%d0%b2-%d1%81%d0%b0%d1%89-%d0%b7/",
+      "path": "/аудио-за-полицейското-насилие-в-сащ-з/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b0%d1%83%d0%b4%d0%b8%d0%be-%d0%bc%d0%b8%d1%81%d1%82%d0%b8%d1%87%d0%b5%d0%bd-%d0%b1%d0%b8%d0%b1%d0%bb%d0%b5%d0%b9%d1%81%d0%ba%d0%b8-%d1%82%d0%b5%d1%80%d0%bc%d0%b8%d0%bd-%d0%b8-%d0%b8%d0%b7%d0%bd/",
+      "path": "/аудио-мистичен-библейски-термин-и-изн/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b0%d1%83%d0%b4%d0%b8%d0%be-%d0%bf%d0%be%d0%b4%d0%ba%d0%b0%d1%81%d1%82-%d0%b4%d0%b2%d0%b0-%d0%b2%d0%b0%d0%b6%d0%bd%d0%b8-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d0%b0-%d0%bf%d0%be-%d0%b4/",
+      "path": "/аудио-подкаст-два-важни-материала-по-д/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b0%d1%83%d0%b4%d0%b8%d0%be-%d0%bf%d0%be%d0%b4%d0%ba%d0%b0%d1%81%d1%82-%d0%b7%d0%b0%d1%89%d0%be-%d0%bd%d0%b5-%d0%bc%d0%be%d0%b6%d0%b5%d1%88-%d0%b4%d0%b0-%d1%81%d1%82%d0%b0%d0%bd%d0%b5%d1%88-%d0%ba/",
+      "path": "/аудио-подкаст-защо-не-можеш-да-станеш-к/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b0%d1%83%d0%b4%d0%b8%d0%be-%d0%bf%d0%be%d0%b4%d0%ba%d0%b0%d1%81%d1%82-%d0%b7%d0%b0-%d1%81%d1%8a%d1%8e%d0%b7%d0%b8%d1%82%d0%b5-%d0%b2%d0%be%d0%b5%d0%bd%d0%bd%d0%b8-%d0%b4%d1%83%d1%85%d0%be/",
+      "path": "/аудио-подкаст-за-съюзите-военни-духо/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b0%d1%83%d0%b4%d0%b8%d0%be-%d0%bf%d0%be%d0%b4%d0%ba%d0%b0%d1%81%d1%82-%d0%ba%d0%be%d1%80%d0%be%d0%bd%d0%b0%d0%b2%d0%b8%d1%80%d1%83%d1%81%d0%b0-%d0%b8-%d0%b1%d0%b8%d0%b1%d0%bb%d0%b8%d1%8f%d1%82/",
+      "path": "/аудио-подкаст-коронавируса-и-библият/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b0%d1%83%d0%b4%d0%b8%d0%be-%d1%86%d0%b5%d0%bf%d0%b5%d0%bd%d0%b5-%d0%bd%d0%b0-%d0%b0%d1%82%d0%be%d0%bc%d0%b8-%d0%b8%d0%bb%d0%b8-%d0%b8%d0%b7%d1%86%d0%b5%d0%bb%d1%8f%d0%b2%d0%b0%d0%bd%d0%b5-%d0%bd/",
+      "path": "/аудио-цепене-на-атоми-или-изцеляване-н/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b1%d0%b5%d0%b7%d0%bf%d0%bb%d0%b0%d1%82%d0%b5%d0%bd-%d0%ba%d1%83%d1%80%d1%81-%d0%bf%d0%be-%d0%ba%d0%b8%d0%b1%d0%b5%d1%80%d1%81%d0%b8%d0%b3%d1%83%d1%80%d0%bd%d0%be%d1%81%d1%82/",
+      "path": "/безплатен-курс-по-киберсигурност/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b1%d0%b5%d0%b7%d0%bf%d0%bb%d0%b0%d1%82%d0%b5%d0%bd-%d0%ba%d1%83%d1%80%d1%81/",
+      "path": "/безплатен-курс/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b1%d0%b5%d0%b7%d0%bf%d0%bb%d0%b0%d1%82%d0%bd%d0%be-%d0%b8-%d0%b1%d0%b5%d0%b7-%d1%80%d0%b5%d0%ba%d0%bb%d0%b0%d0%bc%d0%b8-%d0%b2-youtube-%d1%81-%d0%b1%d1%80%d0%b0%d1%83%d0%b7%d1%8a%d1%80%d0%b0-brave/",
+      "path": "/безплатно-и-без-реклами-в-youtube-с-браузъра-brave/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b1%d0%b8%d0%b7%d0%bd%d0%b5%d1%81-%d0%bc%d0%be%d0%b4%d0%b5%d0%bb-%d0%ba%d0%be%d0%b9%d1%82%d0%be-%d0%b7%d0%b0%d1%81%d1%82%d1%80%d0%b0%d1%88%d0%b0%d0%b2%d0%b0-%d1%87%d0%be%d0%b2%d0%b5%d1%88%d0%ba/",
+      "path": "/бизнес-модел-който-застрашава-човешк/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b1%d0%b8%d1%82%d0%ba%d0%be%d0%b9%d0%bd-%d0%bf%d1%80%d0%be%d0%b4%d1%8a%d0%bb%d0%b6%d0%b0%d0%b2%d0%b0-%d0%b4%d0%b0-%d1%88%d0%be%d0%ba%d0%b8%d1%80%d0%b0/",
+      "path": "/биткойн-продължава-да-шокира/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b1%d0%bb%d0%be%d0%ba%d1%87%d0%b5%d0%b9%d0%bd-%d1%82%d0%b5%d1%85%d0%bd%d0%be%d0%bb%d0%be%d0%b3%d0%b8%d1%8f%d1%82%d0%b0-%d0%be%d0%b1%d1%8f%d1%81%d0%bd%d0%b5%d0%bd%d0%b0/",
+      "path": "/блокчейн-технологията-обяснена/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b1%d0%be%d0%b3-%d0%b2%d0%bb%d0%b0%d1%81%d1%82%d0%b5%d0%bd-%d0%bb%d1%8e%d0%b1%d1%8f%d1%89-%d0%b1%d0%b0%d1%89%d0%b0-%d0%b8%d0%bb%d0%b8-%d0%b7%d0%b0%d1%85%d0%b0%d1%80%d0%be%d1%81%d0%b0%d0%bd/",
+      "path": "/бог-властен-любящ-баща-или-захаросан/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b1%d0%be%d0%b3-%d0%bd%d0%b5-%d0%b5-%d1%84%d0%be%d0%ba%d1%83%d1%81%d0%bd%d0%b8%d0%ba/",
+      "path": "/бог-не-е-фокусник/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b1%d1%8a%d0%b4%d0%b5%d1%89%d0%b8%d1%8f%d1%82-a-o/",
+      "path": "/бъдещият-a-o/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b2%d0%b8%d0%b4%d0%b5%d0%be-%d0%b1%d0%b5%d0%b7-%d0%b8%d0%b7%d0%b2%d0%b8%d0%bd%d0%b5%d0%bd%d0%b8%d1%8f/",
+      "path": "/видео-без-извинения/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b2%d0%b8%d0%b4%d0%b5%d0%be-%d0%b7%d0%b0%d1%89%d0%be-%d0%b7%d0%bb%d0%b8%d1%82%d0%b5-%d1%85%d0%be%d1%80%d0%b0-%d0%bd%d0%b0%d0%b4%d0%bc%d0%be%d0%b3%d0%b2%d0%b0%d1%82/",
+      "path": "/видео-защо-злите-хора-надмогват/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b2%d0%b8%d0%b4%d0%b5%d0%be-%d0%b7%d0%b0-%d1%84%d0%b5%d0%bc%d0%b8%d0%bd%d0%b8%d0%b7%d0%bc%d0%b0-%d0%bb%d0%be%d0%b2%d0%bd%d0%b8%d1%8f-%d0%b8%d0%bd%d1%81%d1%82%d0%b8%d0%bd%d0%ba%d1%82-%d0%b8-%d0%bc/",
+      "path": "/видео-за-феминизма-ловния-инстинкт-и-м/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b2%d0%b8%d0%b4%d0%b5%d0%be-%d0%bf%d0%b0%d1%80%d0%b0%d0%b4%d0%be%d0%ba%d1%81%d1%8a%d1%82-%d0%bd%d0%b0-%d1%81%d1%82%d0%be%d0%ba%d0%b4%d0%b5%d0%b9%d0%bb/",
+      "path": "/видео-парадоксът-на-стокдейл/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b2%d0%b8%d0%b4%d0%b5%d0%be-%d1%81%d0%b0%d0%bc%d0%be-%d0%b7%d0%b0-%d0%b0%d0%b1%d0%be%d0%bd%d0%b0%d1%82%d0%b8/",
+      "path": "/видео-само-за-абонати/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b2%d0%b8%d0%b4%d0%b5%d0%be/",
+      "path": "/видео/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b2%d0%b8%d1%80%d1%82%d1%83%d0%b0%d0%bb%d0%bd%d0%be-%d0%be%d0%b1%d0%b5%d0%b7%d1%81%d0%bc%d1%8a%d1%80%d1%82%d1%8f%d0%b2%d0%b0%d0%bd%d0%b5/",
+      "path": "/виртуално-обезсмъртяване/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b2%d0%ba%d0%b0%d0%bc%d0%b5%d0%bd%d0%b5%d0%bd%d0%b0%d1%82%d0%b0-%d0%b3%d0%be%d1%80%d0%b0-%d0%bf%d1%8a%d1%82%d0%b5%d0%bf%d0%b8%d1%81-2/",
+      "path": "/вкаменената-гора-пътепис-2/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b2%d0%ba%d0%b0%d0%bc%d0%b5%d0%bd%d0%b5%d0%bd%d0%b0%d1%82%d0%b0-%d0%b3%d0%be%d1%80%d0%b0-%d0%bf%d1%8a%d1%82%d0%b5%d0%bf%d0%b8%d1%81/",
+      "path": "/вкаменената-гора-пътепис/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b2%d0%bc%d0%b5%d1%81%d1%82%d0%be-%d1%81%d1%82%d0%b0%d1%82%d1%83%d1%81/",
+      "path": "/вместо-статус/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b2%d1%8a%d0%bf%d1%80%d0%be%d1%81%d0%b8-%d0%b8-%d0%be%d1%82%d0%b3%d0%be%d0%b2%d0%be%d1%80%d0%b8-%d0%bc%d0%b5%d1%81%d0%b8%d1%8f%d0%bd%d1%81%d1%82%d0%b2%d0%be-%d1%85%d1%80%d0%b8%d1%81%d1%82%d0%b8/",
+      "path": "/въпроси-и-отговори-месиянство-христи/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b3%d0%be%d1%82%d0%be%d0%b2%d0%b8-%d1%81%d0%bc%d0%b5-%d0%b7%d0%b0-%d0%b2%d0%b8%d0%b4%d0%b5%d0%be-%d1%81%d1%82%d1%80%d0%b8%d0%bc%d0%b8%d0%bd%d0%b3-%d0%b8-%d0%be%d0%bd%d0%bb%d0%b0%d0%b9%d0%bd-%d0%b3/",
+      "path": "/готови-сме-за-видео-стриминг-и-онлайн-г/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b4%d0%b0%d0%bd%d1%8a%d1%87%d0%bd%d0%be-%d0%be%d0%b1%d0%bb%d0%b0%d0%b3%d0%b0%d0%bd%d0%b5-%d0%bd%d0%b0-%d1%82%d1%80%d0%b0%d0%bd%d0%b7%d0%b0%d0%ba%d1%86%d0%b8%d0%b8-%d1%81-%d0%ba%d1%80%d0%b8%d0%bf/",
+      "path": "/данъчно-облагане-на-транзакции-с-крип/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b4%d0%b0-%d1%81%d0%b8-%d0%bf%d1%80%d0%b8%d0%b7%d0%bd%d0%b0%d0%b5%d1%88-%d0%bf%d1%80%d0%b5%d0%b4-%d1%85%d0%be%d1%80%d0%b0%d1%82%d0%b0-%d0%bf%d1%80%d0%b5%d0%b4%d0%b8-%d0%b4%d0%b0-%d1%81%d0%b8/",
+      "path": "/да-си-признаеш-пред-хората-преди-да-си/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b4%d0%b2%d0%b5-%d0%b1%d0%b5%d0%b1%d0%b5%d1%82%d0%b0-%d1%81%d0%b8-%d1%80%d0%b0%d0%b7%d0%b3%d0%be%d0%b2%d0%b0%d1%80%d1%8f%d0%bb%d0%b8/",
+      "path": "/две-бебета-си-разговаряли/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b4%d0%b5%d0%bb%d0%be%d1%82%d0%be-%d0%b2%d1%8a%d0%b2-%d1%84%d0%b8%d0%bb%d0%b8%d0%bf%d0%b8%d0%bd%d0%b8%d1%82%d0%b5-%d1%81%d0%b5-%d1%80%d0%b0%d0%b7%d1%80%d0%b0%d1%81%d1%82%d0%b2%d0%b0/",
+      "path": "/делото-във-филипините-се-разраства/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b4%d0%b6%d0%b8%d1%85%d0%b0%d0%b4%d0%b8%d1%81%d1%82%d0%b8-%d1%81%d0%b0-%d1%85%d0%b0%d0%ba%d0%bd%d0%b0%d0%bb%d0%b8-gmail-yahoo-%d0%b8-outlook/",
+      "path": "/джихадисти-са-хакнали-gmail-yahoo-и-outlook/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b4%d0%b8%d0%b3%d0%b8%d1%82%d0%b0%d0%bb%d0%bd%d0%b0%d1%82%d0%b0-%d0%b5%d1%80%d0%b0-%d0%bf%d0%be%d1%87%d1%82%d0%b8-%d0%b2%d1%81%d0%b8%d1%87%d0%ba%d0%b8-%d1%81%d0%b0-%d0%b6%d0%b5%d1%80%d1%82/",
+      "path": "/дигиталната-ера-почти-всички-са-жерт/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b4%d0%b8%d0%b3%d0%b8%d1%82%d0%b0%d0%bb%d0%bd%d0%be%d1%82%d0%be-%d0%b1%d1%8a%d0%b4%d0%b5%d1%89%d0%b5-%d0%b5-%d1%82%d1%83%d0%ba/",
+      "path": "/дигиталното-бъдеще-е-тук/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b4%d0%b8%d1%81%d1%80%d1%83%d0%bf%d1%86%d0%b8%d1%8f-%d0%b8%d0%bb%d0%b8-%d0%b4%d0%b5%d1%81%d1%82%d1%80%d1%83%d0%ba%d1%86%d0%b8%d1%8f/",
+      "path": "/дисрупция-или-деструкция/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b4%d0%b8%d1%81%d1%82%d0%be%d0%bf%d0%b8%d1%8f-%d0%bf%d0%be-%d0%ba%d0%b8%d1%82%d0%b0%d0%b9%d1%81%d0%ba%d0%b8-%d0%bb%d0%b8%d0%bd%d0%ba/",
+      "path": "/дистопия-по-китайски-линк/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b5%d0%b4%d0%b8%d0%bd-%d0%be%d1%82-%d0%bd%d0%b0%d0%b9-%d0%b4%d0%be%d0%b1%d1%80%d0%b8%d1%82%d0%b5-%d0%b8%d1%81%d0%bb%d1%8f%d0%bc%d1%81%d0%ba%d0%b8-%d0%b5%d0%ba%d1%81%d0%bf%d0%b5%d1%80%d1%82%d0%b8/",
+      "path": "/един-от-най-добрите-ислямски-експерти/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b5%d0%b4%d0%b8%d0%bd-%d0%be%d1%82-%d0%bd%d0%b0%d0%b9-%d0%b4%d0%be%d0%b1%d1%80%d0%b8%d1%82%d0%b5-%d1%80%d0%b5%d1%81%d1%83%d1%80%d1%81%d0%bd%d0%b8-%d1%81%d0%b0%d0%b9%d1%82%d0%be%d0%b2%d0%b5-%d0%b7/",
+      "path": "/един-от-най-добрите-ресурсни-сайтове-з/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b5%d0%b4%d0%bd%d0%b0-%d0%bf%d0%bb%d0%b0%d1%82%d1%84%d0%be%d1%80%d0%bc%d0%b0-%d0%bc%d0%bd%d0%be%d0%b3%d0%be-%d0%bd%d0%b8%d1%88%d0%b8/",
+      "path": "/една-платформа-много-ниши/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b5%d0%bc%d0%be%d1%86%d0%b8%d0%be%d0%bd%d0%b0%d0%bb%d0%bd%d0%b0-%d0%b8%d0%bd%d1%82%d0%b5%d0%bb%d0%b8%d0%b3%d0%b5%d0%bd%d1%82%d0%bd%d0%be%d1%81%d1%82-%d0%b8%d0%b7%d0%ba%d1%83%d1%81%d1%82%d0%b2/",
+      "path": "/емоционална-интелигентност-изкуств/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b6%d0%b8%d0%b2%d0%be%d1%82%d1%8a%d1%82-%d0%be%d1%82%d0%b2%d1%8a%d0%b4-%d0%ba%d0%b0%d0%bf%d0%b8%d1%82%d0%b0%d0%bb%d0%b8%d0%b7%d0%bc%d0%b0-%d0%b8-%d0%b1%d0%b8%d1%82%d0%ba%d0%be%d0%b9%d0%bd/",
+      "path": "/животът-отвъд-капитализма-и-биткойн/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b7%d0%b0%d0%b2%d0%b8%d1%81%d0%b8%d0%bc%d0%be%d1%81%d1%82%d0%b8-%d0%b8-%d0%bf%d1%81%d0%b8%d1%85%d0%b8%d1%87%d0%bd%d0%be%d1%82%d0%be-%d0%b7%d0%b4%d1%80%d0%b0%d0%b2%d0%b5/",
+      "path": "/зависимости-и-психичното-здраве/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b7%d0%b0%d0%b5%d0%b4%d0%bd%d0%be-%d0%b4%d0%b0-%d0%b4%d0%b0%d0%b4%d0%b5%d0%bc-%d0%bc%d0%b5%d1%81%d0%b8%d1%8f-%d0%bd%d0%b0-%d1%82%d0%be%d0%b7%d0%b8-%d1%81%d0%b2%d1%8f%d1%82/",
+      "path": "/заедно-да-дадем-месия-на-този-свят/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b7%d0%b0%d0%bf%d0%b0%d0%b4%d0%bd%d0%b0%d1%82%d0%b0-%d1%86%d0%b8%d0%b2%d0%b8%d0%bb%d0%b8%d0%b7%d0%b0%d1%86%d0%b8%d1%8f-%d0%b5%d0%b4%d0%b8%d0%bd%d1%81%d1%82%d0%b2%d0%b5%d0%bd%d0%b0%d1%82%d0%b0/",
+      "path": "/западната-цивилизация-единствената/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b7%d0%b0%d0%bf%d0%b8%d1%82%d0%b2%d0%b0%d0%bd%d0%b5/",
+      "path": "/запитване/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b7%d0%b0%d1%89%d0%be-%d0%b5-%d0%b2%d0%b0%d0%b6%d0%bd%d0%be-%d0%b4%d0%b0-%d0%be%d1%82%d1%85%d0%b2%d1%8a%d1%80%d0%bb%d0%b8%d0%bc-%d0%b3%d0%be%d0%bb%d0%b5%d0%bc%d0%b8%d1%8f-%d1%82%d0%b5%d1%85%d0%bd/",
+      "path": "/защо-е-важно-да-отхвърлим-големия-техн/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b7%d0%b0%d1%89%d0%be-%d0%bd%d0%b5-%d0%bc%d0%be%d0%b6%d0%b5%d1%88-%d0%b4%d0%b0-%d1%81%d1%82%d0%b0%d0%bd%d0%b5%d1%88-%d0%ba%d0%b0%d0%ba%d0%b2%d0%be%d1%82%d0%be-%d0%b8-%d0%b4%d0%b0-%d0%bf%d0%be%d0%b8/",
+      "path": "/защо-не-можеш-да-станеш-каквото-и-да-пои/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b7%d0%b0%d1%89%d0%be-%d0%bd%d0%b5-%d0%bc%d0%be%d0%b6%d0%b5-%d0%b4%d0%b0-%d1%81%d0%b5-%d1%80%d0%b0%d0%b7%d1%87%d0%b8%d1%82%d0%b0-%d0%bd%d0%b0-%d0%bc%d0%b5%d0%b4%d0%b8%d0%b8%d1%82%d0%b5-%d0%b8/",
+      "path": "/защо-не-може-да-се-разчита-на-медиите-и/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b7%d0%b0-%d0%b0-%d0%be-%d0%b7%d0%b0%d0%bd%d0%b0%d0%bf%d1%80%d0%b5%d0%b4-%d0%b5%d1%80%d0%b0%d1%82%d0%b0-%d0%bd%d0%b0-%d0%b3%d0%bb%d0%be%d0%b1%d0%b0%d0%bb%d0%b8%d0%b7%d0%bc%d0%b0-%d0%b5-%d1%82/",
+      "path": "/за-а-о-занапред-ерата-на-глобализма-е-т/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b7%d0%b0-%d0%b1%d0%be%d0%b3%d0%be%d0%bf%d0%be%d0%b4%d0%be%d0%b1%d0%bd%d0%b8%d1%82%d0%b5/",
+      "path": "/за-богоподобните/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b7%d0%b0-%d0%b2%d0%b0%d1%81-%d0%b8%d1%81%d0%bb%d1%8f%d0%bc%d0%be%d1%84%d0%be%d0%b1%d0%b8/",
+      "path": "/за-вас-ислямофоби/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b7%d0%b0-%d0%b2%d1%8f%d1%80%d0%b2%d0%b0%d0%bd%d0%b5%d1%82%d0%be-%d0%be%d0%b1%d0%b8%d1%87%d0%b0%d0%bd%d0%b5%d1%82%d0%be-%d0%b8-%d0%b3%d1%80%d0%b8%d0%b6%d0%b0%d1%82%d0%b0-%d0%b7%d0%b0-%d1%81%d0%b5/",
+      "path": "/за-вярването-обичането-и-грижата-за-се/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b7%d0%b0-%d0%b5%d0%b4%d0%b8%d0%bd-%d0%b3%d0%be%d0%bb%d1%8f%d0%bc-%d1%85%d0%b0%d0%ba-%d0%b8-%d0%be%d1%89%d0%b5-%d0%bd%d0%b5%d1%89%d0%be/",
+      "path": "/за-един-голям-хак-и-още-нещо/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b7%d0%b0-%d0%ba%d0%be%d0%bd%d0%b2%d0%be%d1%8f-%d0%bd%d0%b0-%d1%81%d0%b2%d0%be%d0%b1%d0%be%d0%b4%d0%b0%d1%82%d0%b0-%d0%b2-%d0%ba%d0%b0%d0%bd%d0%b0%d0%b4%d0%b0-%d0%b8-%d0%be%d1%89%d0%b5/",
+      "path": "/за-конвоя-на-свободата-в-канада-и-още/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b7%d0%b0-%d0%bd%d0%b0%d1%81%d1%8a%d1%80%d1%87%d0%b5%d0%bd%d0%b8%d0%b5-%d0%be%d1%82%d0%b2%d0%be%d1%80%d0%b8-%d1%83%d0%bc%d0%b0-%d0%b8%d1%81%d1%8a%d1%80%d1%86%d0%b5%d1%82%d0%be-%d1%81/",
+      "path": "/за-насърчение-отвори-ума-исърцето-с/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b7%d0%b0-%d0%bf%d0%b0%d0%bd%d0%b4%d0%b5%d0%bc%d0%be%d0%bd%d0%b8%d1%83%d0%bc%d0%b0-%d0%b1%d0%b5%d0%b7-%d1%84%d0%b8%d0%bb%d1%82%d1%8a%d1%80/",
+      "path": "/за-пандемониума-без-филтър/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b7%d0%b0-%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0%d1%82%d0%b0-%d0%ba%d0%b0%d1%82%d0%be-%d1%87%d0%b0%d1%81%d1%82-%d0%be%d1%82-%d0%b7%d0%b4%d1%80%d0%b0%d0%b2%d0%b5%d1%82%d0%be/",
+      "path": "/за-работата-като-част-от-здравето/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b7%d0%b0-%d1%81%d0%b2%d0%b5%d1%82%d1%83%d0%bb%d0%ba%d0%b8%d1%82%d0%b5-80%d1%82%d0%b5-%d1%85%d0%b8%d0%bb%d1%8f%d0%b4%d0%b8-%d0%b0%d0%b2%d0%b0%d0%bd%d1%82%d0%b0%d0%b4%d0%b6%d0%b8%d0%b8-%d0%b8/",
+      "path": "/за-светулките-80те-хиляди-авантаджии-и/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b7%d0%b4%d1%80%d0%b0%d0%b2%d0%be%d1%81%d0%bb%d0%be%d0%b2%d0%bd%d0%be-%d0%bf%d1%80%d0%b5%d0%b4%d0%b8%d0%b7%d0%b2%d0%b8%d0%ba%d0%b0%d1%82%d0%b5%d0%bb%d1%81%d1%82%d0%b2%d0%be/",
+      "path": "/здравословно-предизвикателство/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b8%d0%b7-%d0%bf%d1%8a%d1%80%d0%b2%d0%b0%d1%82%d0%b0-%d1%80%d0%b5%d1%87-%d0%bd%d0%b0-%d1%83%d0%b8%d0%bd%d1%81%d1%82%d1%8a%d0%bd-%d1%87%d1%8a%d1%80%d1%87%d0%b8%d0%bb-%d0%ba%d0%b0%d1%82%d0%be-%d0%b2/",
+      "path": "/из-първата-реч-на-уинстън-чърчил-като-в/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b8%d0%ba%d0%be%d0%bd%d0%be%d0%bc%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%82%d0%b0-%d0%b7%d0%be%d0%bc%d0%b1%d0%b8%d1%84%d0%b8%d0%ba%d0%b0%d1%86%d0%b8%d1%8f-%d0%bd%d0%b0-%d0%ba%d0%be%d0%b2%d0%b8/",
+      "path": "/икономическата-зомбификация-на-кови/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b8%d0%bc%d0%b0-%d0%bb%d0%b8-%d0%b0%d0%b1%d1%81%d0%be%d0%bb%d1%8e%d1%82%d0%bd%d0%b0-%d0%b8%d1%81%d1%82%d0%b8%d0%bd%d0%b0/",
+      "path": "/има-ли-абсолютна-истина/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b8%d0%bc%d0%b0-%d0%bb%d0%b8-%d0%b7%d0%b0%d0%b3%d0%be%d0%b2%d0%be%d1%80-%d0%bd%d0%b0-%d1%84%d0%b5%d0%bc%d0%b8%d0%bd%d0%b8%d0%b7%d0%bc%d0%b0-%d1%81%d1%80%d0%b5%d1%89%d1%83-%d0%bc%d1%8a%d0%b6%d0%b5/",
+      "path": "/има-ли-заговор-на-феминизма-срещу-мъже/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b8%d0%bd%d0%b4%d0%b8%d1%8f-%d0%be%d1%82%d0%ba%d1%80%d0%b8-%d0%be%d0%b3%d1%80%d0%be%d0%bc%d0%bd%d0%b8-%d0%b7%d0%b0%d0%bf%d0%b0%d1%81%d0%b8-%d0%be%d1%82-%d0%bb%d0%b8%d1%82%d0%b8%d0%b9/",
+      "path": "/индия-откри-огромни-запаси-от-литий/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b8%d1%81%d1%82%d0%b8%d0%bd%d0%b0%d1%82%d0%b0-%d0%b8-%d0%ba%d0%b0%d0%ba-%d0%b7%d0%b0%d0%bd%d0%b0%d0%bf%d1%80%d0%b5%d0%b4/",
+      "path": "/истината-и-как-занапред/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b8%d1%81%d1%82%d0%b8%d0%bd%d1%81%d0%ba%d0%b8%d1%82%d0%b5-peaky-blinders/",
+      "path": "/истинските-peaky-blinders/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b8%d1%81%d1%82%d0%be%d1%80%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b8-%d0%bc%d0%be%d0%bc%d0%b5%d0%bd%d1%82/",
+      "path": "/исторически-момент/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%b8%d1%81%d1%82%d0%be%d1%80%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%be/",
+      "path": "/историческо/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%ba%d0%b0%d0%b7%d0%b0%d1%85-%d0%bb%d0%b8-%d0%b2%d0%b8/",
+      "path": "/казах-ли-ви/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%ba%d0%b0%d0%ba%d0%b2%d0%b0-%d0%b5-%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%bd%d0%b0%d1%82%d0%b0-%d1%86%d0%b5%d0%bb-%d0%bd%d0%b0-%d0%b7%d0%b0%d0%ba%d0%be%d0%bd%d0%b0/",
+      "path": "/каква-е-основната-цел-на-закона/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%ba%d0%b0%d0%ba%d0%b2%d0%be-%d0%b1%d0%be%d0%b3-%d0%bc%d0%b8%d1%81%d0%bb%d0%b8-%d0%b7%d0%b0-%d0%b5%d0%b2%d1%80%d0%b5%d0%b8%d1%82%d0%b5/",
+      "path": "/какво-бог-мисли-за-евреите/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%ba%d0%b0%d0%ba%d0%b2%d0%be-%d0%b5-%d0%b2%d0%b0%d1%88%d0%b5%d1%82%d0%be-%d1%85%d0%be%d0%b1%d0%b8/",
+      "path": "/какво-е-вашето-хоби/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%ba%d0%b0%d0%ba%d0%b2%d0%be-%d0%bc%d0%b8%d1%81%d0%bb%d0%b8%d1%82%d0%b5-%d0%b7%d0%b0-%d0%ba%d1%80%d0%b8%d1%82%d0%bf%d0%be%d0%b2%d0%b0%d0%bb%d1%83%d1%82%d0%b8%d1%82%d0%b5/",
+      "path": "/какво-мислите-за-критповалутите/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%ba%d0%b0%d0%ba%d0%b2%d0%be-%d1%89%d0%b5-%d0%bd%d0%b0%d0%bf%d1%80%d0%b0%d0%b2%d0%b8%d1%88-%d0%be%d1%82-%d1%81%d0%b5%d0%b1%d0%b5-%d1%81%d0%b8/",
+      "path": "/какво-ще-направиш-от-себе-си/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%ba%d0%b0%d0%ba-%d0%b4%d0%b5%d0%b9%d0%b2%d0%b8%d0%b4-%d0%b1o%d1%83%d0%b8-%d0%bf%d1%80%d0%b5%d0%b4%d1%80%d0%b5%d1%87%d0%b5-%d0%ba%d0%b0%d0%ba%d0%b2%d0%be-%d0%b8%d0%bd%d1%82%d0%b5%d1%80%d0%bd%d0%b5/",
+      "path": "/как-дейвид-бoуи-предрече-какво-интерне/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%ba%d0%b0%d0%ba-%d0%be%d1%82%d1%80%d0%b0%d0%b7%d0%b8%d1%85-%d0%b1%d0%b8%d1%82%d0%ba%d0%be%d0%b9%d0%bd-%d0%b8-%d0%ba%d0%be%d0%b3%d0%b0-%d0%b8-%d0%ba%d0%b0%d0%ba%d0%b2%d0%be-%d0%b1%d0%b8-%d0%be/",
+      "path": "/как-отразих-биткойн-и-кога-и-какво-би-о/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%ba%d0%b0%d0%ba-%d0%bf%d0%be%d1%81%d1%82%d1%8a%d0%bf%d0%b2%d0%b0%d1%82-%d0%bc%d0%b8%d0%bb%d0%b8%d0%b0%d1%80%d0%b4%d0%b5%d1%80%d0%b8%d1%82%d0%b5-%d0%b8-%d0%ba%d0%b0%d0%ba%d0%b2%d0%be-%d0%bc%d0%be/",
+      "path": "/как-постъпват-милиардерите-и-какво-мо/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%ba%d0%be%d0%b3%d0%b0-%d0%b5-%d0%b2%d1%80%d0%b5%d0%bc%d0%b5-%d0%b7%d0%b0-%d0%bf%d1%80%d0%be%d0%bc%d1%8f%d0%bd%d0%b0/",
+      "path": "/кога-е-време-за-промяна/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%ba%d0%be%d0%b3%d0%b0-%d0%bd%d0%b0%d1%81%d1%82%d1%8a%d0%bf%d0%b2%d0%b0-%d1%81%d0%bc%d1%8a%d1%80%d1%82%d1%82%d0%b0-%d1%81%d0%bf%d0%be%d1%80%d0%b5%d0%b4-%d1%8e%d0%b4%d0%b0%d0%b8%d0%b7%d0%bc%d0%b0/",
+      "path": "/кога-настъпва-смъртта-според-юдаизма/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%ba%d0%be%d0%b9-%d0%b5-%d0%ba%d0%b2%d0%b0%d0%bb%d0%b8%d1%84%d0%b8%d1%86%d0%b8%d1%80%d0%b0%d0%bd-%d0%b4%d0%b0-%d1%82%d0%b5-%d0%bf%d1%80%d0%b5%d0%b4%d0%b8%d0%b7%d0%b2%d0%b8%d0%ba%d0%b0-%d0%b8-%d0%bf/",
+      "path": "/кой-е-квалифициран-да-те-предизвика-и-п/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%ba%d0%be%d0%b9-%d0%ba%d0%b0%d0%ba-%d0%b8-%d0%b7%d0%b0%d1%89%d0%be-%d0%b8%d0%b7%d0%be%d0%b1%d1%80%d0%b5%d1%82%d0%b8-%d1%85%d0%b0%d1%80%d1%82%d0%b8%d0%b5%d0%bd%d0%b8%d1%82%d0%b5-%d0%bf%d0%b0%d1%80/",
+      "path": "/кой-как-и-защо-изобрети-хартиените-пар/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%ba%d0%be%d0%bb%d0%ba%d0%be-%d1%81%d0%b0-%d0%b3%d0%be%d0%b2%d0%be%d1%80%d0%b8%d0%bc%d0%b8%d1%82%d0%b5-%d0%b5%d0%b7%d0%b8%d1%86%d0%b8-%d0%b2-%d1%81%d0%b2%d0%b5%d1%82%d0%b0/",
+      "path": "/колко-са-говоримите-езици-в-света/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bb%d0%b0%d0%b1%d0%b8%d1%80%d0%b8%d0%bd%d1%82%d0%b8-%d0%b8-%d0%bc%d0%b8%d1%88%d0%ba%d0%b8-%d0%b7%d0%b0-%d0%bf%d1%81%d0%b8%d1%85%d0%be%d0%bb%d0%be%d0%b3%d0%b8%d1%8f%d1%82%d0%b0-%d0%bd%d0%b0-%d1%81/",
+      "path": "/лабиринти-и-мишки-за-психологията-на-с/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bc%d0%b0%d1%81%d0%be%d0%b2%d0%be%d1%82%d0%be-%d0%bf%d1%80%d0%b8%d0%b5%d0%bc%d0%b0%d0%bd%d0%b5-%d0%bd%d0%b0-%d0%ba%d1%80%d0%b8%d0%bf%d1%82%d0%be%d0%b2%d0%b0%d0%bb%d1%83%d1%82%d0%b8%d1%82%d0%b5/",
+      "path": "/масовото-приемане-на-криптовалутите/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bc%d0%b5%d0%b4%d0%b8%d0%b9%d0%bd%d0%b0-%d0%b4%d0%b5%d0%b9%d0%bd%d0%be%d1%81%d1%82-%d0%be%d0%bf%d0%b8%d1%82%d0%b8-%d0%b8%d0%b7%d0%b2%d0%be%d0%b4%d0%b8-%d0%b8-%d1%86%d0%b5%d0%bb%d0%b8/",
+      "path": "/медийна-дейност-опити-изводи-и-цели/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bc%d0%b8%d0%bd%d0%b8%d0%bc%d0%b0%d0%bb%d0%b8%d0%b7%d0%bc%d1%8a%d1%82-%d0%ba%d0%b0%d1%82%d0%be-%d1%81%d1%8a%d1%81%d1%82%d0%be%d1%8f%d0%bd%d0%b8%d0%b5-%d0%bd%d0%b0-%d0%b4%d1%83%d1%88%d0%b0%d1%82/",
+      "path": "/минимализмът-като-състояние-на-душат/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bc%d0%b8%d1%81%d0%bb%d0%b8%d1%88-%d0%bb%d0%b8-%d1%87%d0%b5-%d0%bf%d0%be%d0%b7%d0%bd%d0%b0%d0%b2%d0%b0%d1%88-%d1%81%d0%b5%d0%b1%d0%b5-%d1%81%d0%b8/",
+      "path": "/мислиш-ли-че-познаваш-себе-си/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bc%d0%b8%d1%81%d1%82%d0%b5%d1%80%d0%b8%d1%8f%d1%82%d0%b0-%d0%bd%d0%b0-%d0%bd%d0%b5%d0%b2%d1%80%d0%be%d0%bd%d0%b8%d1%82%d0%b5-%d0%b8-%d0%b2%d1%80%d1%8a%d0%b7%d0%ba%d0%b0%d1%82%d0%b0-%d0%b8%d0%bc/",
+      "path": "/мистерията-на-невроните-и-връзката-им/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bc%d0%bb%d0%b0%d0%b4%d0%b8-%d0%bf%d0%be%d1%81%d0%b2%d0%b5%d1%82%d0%b5%d0%bd%d0%b8-%d0%bd%d0%b0-%d0%b1%d0%be%d0%b3-%d0%b8-%d0%b4%d0%be%d0%b1%d1%80%d0%b5-%d0%b2%d1%8a%d0%be%d1%80%d1%8a%d0%b6%d0%b5/",
+      "path": "/млади-посветени-на-бог-и-добре-въоръже/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bc%d1%8a%d0%b4%d1%80%d0%be%d1%81%d1%82%d0%b8%d1%82%d0%b5-%d0%bd%d0%b0-%d1%81%d0%ba%d0%be%d1%82-%d0%b0%d0%b4%d0%b0%d0%bc%d1%81/",
+      "path": "/мъдростите-на-скот-адамс/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bd%d0%b0%d0%b4-90-%d0%be%d1%82-%d1%87%d0%b5%d1%80%d0%bd%d0%b8%d1%82%d0%b5-%d1%81%d0%b0-%d0%b6%d0%b5%d1%80%d1%82%d0%b2%d0%b0-%d0%bd%d0%b0-%d1%87%d0%b5%d1%80%d0%bd%d0%b8%d1%82%d0%b5/",
+      "path": "/над-90-от-черните-са-жертва-на-черните/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bd%d0%b0%d0%b9-%d0%b2%d0%b0%d0%b6%d0%bd%d0%b8%d1%8f%d1%82-%d1%81%d1%8a%d0%b2%d0%b5%d1%82-%d0%bf%d1%80%d0%b8-%d1%82%d1%8a%d1%80%d1%81%d0%b5%d0%bd%d0%b5-%d0%bd%d0%b0-%d1%80%d0%b0%d0%b1%d0%be%d1%82/",
+      "path": "/най-важният-съвет-при-търсене-на-работ/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bd%d0%b0%d0%b9-%d0%bd%d0%be%d0%b2%d0%b8%d1%82%d0%b5-%d1%82%d0%b5%d0%bd%d0%b4%d0%b5%d0%bd%d1%86%d0%b8%d0%b8-%d0%b2-%d1%83%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5%d1%82%d0%be-%d0%bd/",
+      "path": "/най-новите-тенденции-в-управлението-н/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bd%d0%b0%d0%b9-%d1%80%d0%b0%d0%bd%d0%bd%d0%b0%d1%82%d0%b0-%d1%85%d1%80%d0%b8%d1%81%d1%82%d0%b8%d1%8f%d0%bd%d1%81%d0%ba%d0%b0-%d1%86%d1%8a%d1%80%d0%ba%d0%b2%d0%b0-%d0%b4%d0%be-%d1%81%d0%b8%d0%bd/",
+      "path": "/най-ранната-християнска-църква-до-син/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bd%d0%b0-%d1%80%d0%b8%d0%b1%d0%be%d0%bb%d0%be%d0%b2-%d0%b2-%d0%b0%d0%bb%d1%8f%d1%81%d0%ba%d0%b0-%d1%80%d0%b8%d1%81%d0%ba%d0%be%d0%b2%d0%be-%d0%ba%d0%b0%d1%82%d0%b5%d1%80%d0%b5%d0%bd%d0%b5-%d0%b2/",
+      "path": "/на-риболов-в-аляска-рисково-катерене-в/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bd%d0%b5%d0%b2%d0%b5%d1%80%d0%be%d1%8f%d1%82%d0%bd%d0%b8%d1%8f%d1%82-%d1%84%d0%b8%d0%bb%d0%bc-%d0%bd%d0%b0-%d0%ba%d0%bb%d0%b8%d0%bd%d1%82-%d0%b8%d0%b9%d1%81%d1%82%d1%83%d1%83%d0%b4-%d0%b7%d0%b0/",
+      "path": "/невероятният-филм-на-клинт-ийстууд-за/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bd%d0%b5-%d0%b3%d0%bb%d0%b5%d0%b4%d0%b0%d0%b9-%d1%81%d0%b5%d0%b1%d0%b5-%d1%81%d0%b8-%d0%bf%d1%80%d0%b5%d0%b7-%d0%be%d1%87%d0%b8%d1%82%d0%b5-%d0%bd%d0%b0-%d0%b4%d1%80%d1%83%d0%b3%d0%b8%d1%82%d0%b5/",
+      "path": "/не-гледай-себе-си-през-очите-на-другите/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bd%d0%b5-%d0%bf%d0%be%d0%b7%d0%b2%d0%be%d0%bb%d1%8f%d0%b2%d1%8f%d0%b9-%d0%b7%d0%b4%d1%80%d0%b0%d0%b2%d0%be%d1%81%d0%bb%d0%be%d0%b2%d0%bd%d0%be%d1%82%d0%be-%d0%b4%d0%b0-%d1%82%d0%b5-%d0%be%d0%b1/",
+      "path": "/не-позволявяй-здравословното-да-те-об/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bd%d0%be%d0%b2%d0%be%d1%82%d0%be-%d0%bf%d0%be%d0%ba%d0%be%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5-%d0%ba%d0%be%d0%bd%d1%81%d0%b5%d1%80%d0%b2%d0%b0%d1%82%d0%b8%d0%b2%d0%bd%d0%b8-%d0%b0%d0%bc%d0%b5%d1%80/",
+      "path": "/новото-поколение-консервативни-амер/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bd%d0%be%d0%b2-%d0%b2%d0%b8%d0%b4-%d0%b0%d1%82%d0%b0%d0%ba%d0%b0-%d1%87%d1%80%d0%b5%d0%b7-%d0%ba%d0%be%d1%8f%d1%82%d0%be-%d0%bc%d0%be%d0%b6%d0%b5-%d0%b4%d0%b0-%d1%81%d0%b5-%d1%83%d1%81%d1%82/",
+      "path": "/нов-вид-атака-чрез-която-може-да-се-уст/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bd%d0%be%d0%b2-%d0%bb%d0%b8%d0%bd%d0%ba-%d1%82%d1%80%d0%b8-%d1%82%d0%b5%d1%85%d0%bd%d0%be%d0%bb%d0%be%d0%b3%d0%b8%d0%b8-%d0%ba%d0%be%d0%b8%d1%82%d0%be-%d0%bc%d0%be%d0%b3%d0%b0%d1%82-%d0%b4%d0%b0/",
+      "path": "/нов-линк-три-технологии-които-могат-да/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bd%d0%be%d0%b2-%d1%80%d0%b0%d1%81%d0%be%d0%b2-%d1%81%d0%ba%d0%b0%d0%bd%d0%b4%d0%b0%d0%bb-%d0%b2-%d0%bc%d0%b8%d0%bd%d0%b5%d0%b0%d0%bf%d0%be%d0%bb%d0%b8%d1%81-2/",
+      "path": "/нов-расов-скандал-в-минеаполис-2/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bd%d0%be%d0%b2-%d1%80%d0%b0%d1%81%d0%be%d0%b2-%d1%81%d0%ba%d0%b0%d0%bd%d0%b4%d0%b0%d0%bb-%d0%b2-%d0%bc%d0%b8%d0%bd%d0%b5%d0%b0%d0%bf%d0%be%d0%bb%d0%b8%d1%81/",
+      "path": "/нов-расов-скандал-в-минеаполис/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bd%d1%8e-%d0%b9%d0%be%d1%80%d0%ba-%d1%82%d0%b0%d0%b9%d0%bc%d1%81-%d1%84%d0%b5%d0%b9%d1%81%d0%b1%d1%83%d0%ba-%d0%b5-%d0%b2-%d1%83%d0%bf%d0%b0%d0%b4%d1%8a%d0%ba/",
+      "path": "/ню-йорк-таймс-фейсбук-е-в-упадък/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bd%d1%8f%d0%ba%d0%be%d0%b9-%d0%bf%d0%be%d1%81%d0%bb%d1%83%d1%88%d0%b0-%d0%bb%d0%b8-%d0%bc%d0%b5/",
+      "path": "/някой-послуша-ли-ме/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%be%d0%b1%d0%b5%d1%89%d0%b0%d0%bd%d0%b8%d0%b5/",
+      "path": "/обещание/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%be%d0%b1%d0%b8%d1%87%d0%b0%d0%b9%d1%82%d0%b5-%d0%bd%d0%b5%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b5%d0%bb%d0%b8%d1%82%d0%b5-%d1%81%d0%b8-%d0%b0%d1%83%d0%b4%d0%b8%d0%be-%d0%ba%d0%be%d0%bc%d0%b5%d0%bd/",
+      "path": "/обичайте-неприятелите-си-аудио-комен/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%be%d0%b1%d0%b8%d1%87%d0%b0%d0%b9-%d0%b2%d1%80%d0%b0%d0%b3%d0%be%d0%b2%d0%b5%d1%82%d0%b5-%d1%81%d0%b8-%d1%87%d0%b0%d1%81%d1%82-%d0%bf%d1%8a%d1%80%d0%b2%d0%b0/",
+      "path": "/обичай-враговете-си-част-първа/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%be%d0%bd%d0%bb%d0%b0%d0%b9%d0%bd-%d1%81%d0%b0%d0%bc%d0%be%d1%82%d0%b5%d1%81%d1%82-%d0%b7%d0%b0-%d0%bd%d0%b8%d0%b2%d0%be%d1%82%d0%be-%d0%b2%d0%b8-%d0%bd%d0%b0-%d1%80%d0%b8%d1%81%d0%ba-%d0%be%d1%82/",
+      "path": "/онлайн-самотест-за-нивото-ви-на-риск-от/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%be%d0%bf%d0%b8%d1%82%d0%b0%d0%b9-%d0%b4%d0%b0-%d1%83%d1%81%d0%bf%d0%b5%d0%b5%d1%88-%d0%b1%d0%b5%d0%b7-%d0%b8%d0%bd%d0%b2%d0%b5%d1%81%d1%82%d0%b8%d1%82%d0%be%d1%80%d0%b8/",
+      "path": "/опитай-да-успееш-без-инвеститори/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%be%d1%82%d0%b2%d1%8a%d0%b4-%d1%81%d0%bb%d1%83%d1%87%d0%b0%d1%8f-%d1%84%d0%bb%d0%be%d0%b9%d0%b4-%d0%b8%d1%81%d1%82%d0%b8%d0%bd%d0%b0%d1%82%d0%b0-%d0%b7%d0%b0-%d0%b3%d0%b5%d1%82%d0%be%d1%82%d0%be/",
+      "path": "/отвъд-случая-флойд-истината-за-гетото/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%be%d1%82-%d0%b1%d1%8a%d0%bb%d0%b3%d0%b0%d1%80%d0%b8%d1%8f-%d0%b2%d1%80%d0%b5%d0%bc%d0%b5-%d0%b7%d0%b0-%d1%81%d0%ba%d1%80%d1%8a%d0%b1-%d0%b8-%d0%bf%d1%80%d0%b8%d1%81%d0%bf%d0%be%d1%81%d0%be%d0%b1/",
+      "path": "/от-българия-време-за-скръб-и-приспособ/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%be%d1%82-%d0%b2%d1%8a%d1%82%d1%80%d0%b5-%d0%bd%d0%b0%d0%b2%d1%8a%d0%bd/",
+      "path": "/от-вътре-навън/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%be%d1%89%d0%b5-%d0%b7%d0%b0-%d1%81%d1%82%d0%be%d0%ba%d0%b4%d0%b5%d0%b9%d0%bb/",
+      "path": "/още-за-стокдейл/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bf%d0%b0%d1%80%d1%87%d0%b5%d0%bd%d1%86%d0%b5-%d0%be%d1%82-%d0%b0%d1%80%d0%b8%d0%b7%d0%be%d0%bd%d0%b0/",
+      "path": "/парченце-от-аризона/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bf%d0%be%d0%b4%d0%ba%d0%b0%d1%81%d1%82-%d1%82%d0%b5%d1%85%d0%bd%d0%be%d0%bb%d0%b3%d0%b8%d0%b8%d1%82%d0%b5-%d0%b2-%d0%bf%d1%80%d0%b8%d1%82%d1%87%d0%b8%d1%82%d0%b5/",
+      "path": "/подкаст-технолгиите-в-притчите/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bf%d0%be%d0%ba%d0%b0%d0%bd%d0%b0-%d0%b7%d0%b0-gab/",
+      "path": "/покана-за-gab/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bf%d0%be%d1%81%d0%bb%d0%b0%d0%bd%d0%b8%d0%b5-%d0%ba%d1%8a%d0%bc-%d0%b2%d1%8f%d1%80%d0%b2%d0%b0%d1%89%d0%b8%d1%82%d0%b5-%d0%be%d1%82-%d0%b2%d1%82%d0%be%d1%80%d0%b8%d1%8f-%d1%81%d0%b2%d1%8f%d1%82/",
+      "path": "/послание-към-вярващите-от-втория-свят/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bf%d0%be%d1%81%d0%bb%d0%b5%d0%b4%d0%bd%d0%b8%d1%8f%d1%82-%d0%bc%d0%b5%d1%81%d0%b5%d1%86-%d0%bd%d0%b0-2021-%d0%b3-%d0%b4%d0%b0-%d0%bf%d0%be%d0%b3%d0%be%d0%b2%d0%be%d1%80%d0%b8%d0%bc-%d0%b7%d0%b0/",
+      "path": "/последният-месец-на-2021-г-да-поговорим-за/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bf%d0%be%d1%81%d1%82-%d0%ba%d0%be%d0%b2%d0%b8%d0%b4-%d0%b2-%d0%b1%d1%8a%d0%bb%d0%b3%d0%b0%d1%80%d0%b8%d1%8f/",
+      "path": "/пост-ковид-в-българия/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bf%d1%80%d0%b5%d0%b4%d0%bb%d0%be%d0%b6%d0%b5%d0%bd%d0%b8%d0%b5-%d1%81%d0%b0%d0%bc%d0%be-%d0%b7%d0%b0-%d0%b2%d0%b0%d1%81-%d0%b0%d0%b1%d0%be%d0%bd%d0%b0%d1%82%d0%b8-%d0%bd%d0%b0-%d0%b0-%d0%be/",
+      "path": "/предложение-само-за-вас-абонати-на-а-о/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bf%d1%80%d0%be%d0%b1%d0%bb%d0%b5%d0%bc%d0%b8-%d1%81-%d0%ba%d1%80%d0%b5%d0%b4%d0%b8%d1%82%d0%bd%d0%b8-%d0%b8-%d0%b4%d0%b5%d0%b1%d0%b8%d1%82%d0%bd%d0%b8-%d0%ba%d0%b0%d1%80%d1%82%d0%b8-%d0%b2-%d0%bf/",
+      "path": "/проблеми-с-кредитни-и-дебитни-карти-в-п/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bf%d1%80%d0%be%d0%bb%d0%b5%d1%82%d0%b5%d0%bd-%d0%b2%d0%b0%d0%b9%d0%b1/",
+      "path": "/пролетен-вайб/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bf%d1%80%d0%be%d0%bc%d1%8f%d0%bd%d0%b0-%d0%b8-%d0%bd%d0%be%d0%b2%d0%be-%d0%bd%d0%b0%d1%87%d0%b0%d0%bb%d0%be/",
+      "path": "/промяна-и-ново-начало/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bf%d1%80%d0%be%d1%82%d0%b5%d0%ba%d1%86%d0%b8%d1%8f-%d0%be%d1%82-%d1%81%d0%bf%d0%b0%d0%bc/",
+      "path": "/протекция-от-спам/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bf%d1%80%d0%be%d1%84-%d0%b2%d0%b8%d0%ba%d1%82%d0%be%d1%80-%d0%b4%d0%b5%d0%b9%d0%b2%d0%b8%d1%81-%d1%85%d0%b5%d0%bd%d1%81%d1%8a%d0%bd-%d0%b7%d0%b0-%d0%bd%d0%b0%d1%86%d0%b8%d0%be%d0%bd%d0%b0%d0%bb/",
+      "path": "/проф-виктор-дейвис-хенсън-за-национал/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d0%bf%d1%80%d0%be%d1%84-%d1%85%d0%b5%d0%bd%d1%81%d1%8a%d0%bd-%d0%b7%d0%b0-%d0%ba%d0%be%d1%80%d0%b5%d0%bd%d0%b8%d1%82%d0%b5-%d0%bd%d0%b0-%d0%bd%d0%b0%d1%86%d0%b8%d0%be%d0%bd%d0%b0%d0%bb%d0%bd%d0%b8/",
+      "path": "/проф-хенсън-за-корените-на-национални/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%80%d0%b5%d0%b2%d0%be%d0%bb%d1%8e%d1%86%d0%b8%d1%8f-%d0%b2%d1%8a%d0%b2-%d0%b2%d0%be%d0%b5%d0%bd%d0%bd%d0%be%d1%82%d0%be-%d0%b4%d0%b5%d0%bb%d0%be-%d0%b8%d0%b7%d1%80%d0%b0%d0%b5%d0%bb-%d0%bf/",
+      "path": "/революция-във-военното-дело-израел-п/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%80%d0%b5%d0%ba%d0%bb%d0%b0%d0%bc%d0%b8-%d0%b2%d1%8a%d0%b2-facebook-%d0%bf%d0%be%d0%bf%d1%83%d0%bb%d1%8f%d1%80%d0%b8%d0%b7%d0%b8%d1%80%d0%b0%d1%82-%d0%bf%d1%80%d0%b8%d0%bb%d0%be%d0%b6%d0%b5%d0%bd/",
+      "path": "/реклами-във-facebook-популяризират-приложен/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%80%d1%8f%d0%b4%d0%ba%d0%be-%d0%b4%d0%be%d0%ba%d0%b0%d0%b7%d0%b0%d1%82%d0%b5%d0%bb%d1%81%d1%82%d0%b2%d0%be-%d0%b7%d0%b0-%d1%80%d0%b8%d0%bc%d1%81%d0%ba%d0%be-%d1%80%d0%b0%d0%b7%d0%bf%d1%8f%d1%82/",
+      "path": "/рядко-доказателство-за-римско-разпят/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%81%d0%b2%d0%b5%d1%82%d1%8a%d1%82-%d0%b5-%d0%bc%d0%b0%d0%bb%d1%8a%d0%ba/",
+      "path": "/светът-е-малък/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%81%d0%b2%d0%be%d0%b1%d0%be%d0%b4%d0%b0%d1%82%d0%b0-%d0%b8%d0%bd%d1%81%d1%82%d0%b8%d0%bd%d0%ba%d1%82-%d0%b8%d0%bb%d0%b8-%d1%81%d1%8a%d0%b7%d0%bd%d0%b0%d1%82%d0%b5%d0%bb%d0%bd%d0%be-%d1%83%d1%81/",
+      "path": "/свободата-инстинкт-или-съзнателно-ус/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%81%d0%b5%d0%b4%d0%b5%d0%bc-%d0%bf%d1%80%d0%b8%d1%87%d0%b8%d0%bd%d0%b8-%d0%bf%d0%be%d1%80%d0%b0%d0%b4%d0%b8-%d0%ba%d0%be%d0%b8%d1%82%d0%be-%d0%b2%d0%b8%d0%bd%d0%b0%d0%b3%d0%b8-%d1%82%d1%80%d1%8f/",
+      "path": "/седем-причини-поради-които-винаги-тря/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%81%d0%b5%d0%b4%d0%bc%d0%b8%d1%87%d0%b5%d0%bd-%d0%b2%d0%b8%d0%b4%d0%b5%d0%be-%d1%87%d0%b0%d1%82/",
+      "path": "/седмичен-видео-чат/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%81%d0%b8%d0%bb%d0%b0%d1%82%d0%b0-%d0%bd%d0%b0-%d0%b2%d0%b8%d0%b7%d1%83%d0%b0%d0%bb%d0%b8%d0%b7%d0%b0%d1%86%d0%b8%d1%8f%d1%82%d0%b0-%d0%bf%d1%80%d0%b8-%d0%bf%d0%be%d1%81%d1%82%d0%b0%d0%b2%d1%8f/",
+      "path": "/силата-на-визуализацията-при-поставя/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%81%d0%ba%d0%be%d1%80%d0%be-%d1%81-%d0%bd%d0%be%d0%b2-%d0%b4%d0%be%d0%bc/",
+      "path": "/скоро-с-нов-дом/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%81%d0%bc%d0%b0%d1%80%d1%82%d1%84%d0%be%d0%bd%d0%b8%d1%82%d0%b5-%d0%b4%d0%be%d0%ba%d0%b0%d0%b7%d0%b0%d1%82%d0%b5%d0%bb%d1%81%d1%82%d0%b2%d0%b0-%d0%b7%d0%b0-%d0%bf%d0%be%d1%81%d1%82%d0%be%d1%8f/",
+      "path": "/смартфоните-доказателства-за-постоя/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%81%d0%bc%d0%b5%d0%bb%d0%b8-%d1%85%d0%be%d1%80%d0%b0-%d1%81%d1%80%d0%b5%d1%89%d1%83-%d0%bb%d1%83%d0%b4%d0%be%d1%81%d1%82%d1%82%d0%b0-%d0%b8-%d0%b4%d0%b5%d0%b3%d1%80%d0%b0%d0%b4%d0%b0%d1%86%d0%b8/",
+      "path": "/смели-хора-срещу-лудостта-и-деградаци/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%81%d0%be%d0%b4%d0%be%d0%bc-%d0%b8-%d0%b3%d0%be%d0%bc%d0%be%d1%80%d0%b0-%d0%b4%d0%be%d0%ba%d0%b0%d0%b7%d0%b0%d1%82%d0%b5%d0%bb%d1%81%d1%82%d0%b2%d0%b0-%d1%87%d0%b5-%d0%ba%d0%be%d1%81%d0%bc%d0%b8/",
+      "path": "/содом-и-гомора-доказателства-че-косми/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%81%d0%be%d0%bb%d0%b8%d0%b4%d0%bd%d0%b0-%d1%82%d0%b5%d1%85%d0%bd%d0%be%d0%bb%d0%be%d0%b3%d0%b8%d1%8f/",
+      "path": "/солидна-технология/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%81%d0%bf%d0%b8%d1%81%d1%8a%d0%ba-%d0%bd%d0%b0-%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%bd%d0%b8%d1%82%d0%b5-%d0%b3%d0%bb%d0%be%d0%b1%d0%b0%d0%bb%d0%b8%d1%81%d1%82%d0%ba%d0%b8-%d0%b8-%d0%b0%d0%bd%d1%82/",
+      "path": "/списък-на-основните-глобалистки-и-ант/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%81%d0%bf%d0%be%d0%b5%d0%bd%d0%b8-%d0%b7%d0%b0-%d0%b5%d0%b4-%d0%ba%d0%be%d0%bb-%d0%b8-%d0%bd%d0%b5%d0%b3%d0%be%d0%b2%d0%b0%d1%82%d0%b0-%d0%bc%d0%b8%d1%81%d0%b8%d1%8f/",
+      "path": "/споени-за-ед-кол-и-неговата-мисия/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%81%d1%80%d0%b5%d1%89%d0%b0-%d1%81-%d0%b8%d1%81%d1%82%d0%be%d1%80%d0%b8%d1%8f%d1%82%d0%b0-%d0%b2-%d0%bf%d0%be%d0%ba%d1%80%d0%b0%d0%b9%d0%bd%d0%b8%d0%bd%d0%b8%d1%82%d0%b5-%d0%bd%d0%b0-%d0%b2%d0%b8/",
+      "path": "/среща-с-историята-в-покрайнините-на-ви/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%81%d1%82%d1%80%d0%b0%d1%85%d0%be%d1%82%d0%b5%d0%bd-%d1%81%d0%be%d1%84%d1%82%d1%83%d0%b5%d1%80-%d0%b7%d0%b0-%d1%83%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5-%d0%bd%d0%b0-%d1%84%d0%b8/",
+      "path": "/страхотен-софтуер-за-управление-на-фи/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%81%d1%82%d1%80%d0%b0%d1%85-%d0%b8-%d1%81%d0%bc%d0%b5%d0%bb%d0%be%d1%81%d1%82-%d0%bd%d0%b0%d1%83%d1%87%d0%bd%d0%be-%d0%be%d0%b1%d1%8f%d1%81%d0%bd%d0%b5%d0%bd%d0%b8%d0%b5/",
+      "path": "/страх-и-смелост-научно-обяснение/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%81%d1%82%d1%80%d0%b8%d0%bc%d0%b8%d0%bd%d0%b3-%d0%b2%d0%b8%d0%b4%d0%b5%d0%be-%d0%b7%d0%b0%d0%bd%d0%b0%d0%bf%d1%80%d0%b5%d0%b4-%d1%81%d0%b0%d0%bc%d0%be-%d1%81%d1%82%d1%80%d0%b8%d0%bc%d0%b8%d0%bd/",
+      "path": "/стриминг-видео-занапред-само-стримин/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%81%d1%82%d1%80%d0%b8%d0%bc%d0%b8%d0%bd%d0%b3-%d0%bd%d0%b0-%d0%b6%d0%b8%d0%b2%d0%be-%d0%b8%d0%b7%d0%b1%d0%be%d1%80%d0%b8-2021-%d0%ba%d0%be%d0%bc%d0%b5%d0%bd%d1%82%d0%b0%d1%80/",
+      "path": "/стриминг-на-живо-избори-2021-коментар/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%81%d1%83%d1%88%d0%b8%d1%82%d0%b5-%d0%bd%d0%b0-%d0%b5%d0%b2%d1%80%d0%be%d0%bf%d0%b0-%d0%b8-%d0%ba%d0%b0%d0%bc%d1%8a%d0%bd%d0%b8%d1%82%d0%b5-%d0%bd%d0%b0-%d0%b3%d0%bb%d0%b0%d0%b4%d0%b0/",
+      "path": "/сушите-на-европа-и-камъните-на-глада/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%81%d1%8a%d0%bd%d0%b8%d1%89%d0%b0-%d0%bf%d1%81%d0%b8%d1%85%d0%be%d0%b0%d0%bd%d0%b0%d0%bb%d0%b8%d1%82%d0%b8%d1%86%d0%b8-%d0%b8-%d1%88%d0%b0%d1%80%d0%bb%d0%b0%d1%82%d0%b0%d0%bd%d0%b8/",
+      "path": "/сънища-психоаналитици-и-шарлатани/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%82%d0%b2%d0%be%d1%80%d0%b5%d1%86-%d1%81-%d1%80%d0%b5%d0%b7%d0%b0%d1%87%d0%ba%d0%b0/",
+      "path": "/творец-с-резачка/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%82%d0%b5%d0%be%d1%80%d0%b8%d1%8f%d1%82%d0%b0-%d0%bd%d0%b0-%d0%bc%d1%80%d0%b5%d0%b6%d0%b8%d1%82%d0%b5/",
+      "path": "/теорията-на-мрежите/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%82%d0%be%d0%b2%d0%b0-%d0%b2%d0%b8%d0%b4%d0%b5%d0%be-%d0%bd%d0%b5-%d0%b5-%d0%b7%d0%b0-%d0%ba%d0%be%d1%80%d0%be%d0%bd%d0%b0%d0%b2%d0%b8%d1%80%d1%83%d1%81%d0%b0-%f0%9f%98%82/",
+      "path": "/това-видео-не-е-за-коронавируса-😂/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%82%d1%80%d0%b8%d1%82%d0%b5-%d0%bf%d1%80%d0%b0%d0%b2%d0%b8%d0%bb%d0%b0-%d0%bd%d0%b0-%d0%b0%d0%b9%d0%bd%d1%89%d0%b0%d0%b9%d0%bd/",
+      "path": "/трите-правила-на-айнщайн/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%82%d1%80%d0%b8-%d0%bd%d0%b0%d1%87%d0%b8%d0%bd%d0%b0-%d0%b4%d0%b0-%d1%81%d0%b5-%d1%81%d0%bf%d1%80%d0%b0%d0%b2%d0%b8%d0%bc-%d1%81-%d0%bd%d0%b5%d0%b3%d0%b0%d1%82%d0%b8%d0%b2%d0%bd%d0%b8-%d1%85%d0%be/",
+      "path": "/три-начина-да-се-справим-с-негативни-хо/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%82%d1%80%d1%83%d0%b4%d0%bd%d0%be-%d0%b7%d0%b0-%d0%bf%d1%80%d0%b5%d0%b2%d0%be%d0%b4/",
+      "path": "/трудно-за-превод/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%82%d1%83%d0%b8%d1%82%d1%8a%d1%80-%d0%be%d0%b1%d1%8f%d0%b2%d0%b8-%d1%8f%d0%b2%d0%bd%d0%b0-%d0%b2%d0%be%d0%b9%d0%bd%d0%b0-%d0%bd%d0%b0-%d0%bf%d1%80%d0%b5%d0%b7%d0%b8%d0%b4%d0%b5%d0%bd%d1%82%d0%b0/",
+      "path": "/туитър-обяви-явна-война-на-президента/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%83%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5-%d0%bd%d0%b0-%d0%b2%d1%80%d0%b5%d0%bc%d0%b5%d1%82%d0%be-%d0%b7%d0%b0-%d0%b2%d1%8a%d0%b7%d1%80%d0%b0%d1%81%d1%82%d0%bd%d0%b8/",
+      "path": "/управление-на-времето-за-възрастни/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%83%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5-%d0%bd%d0%b0-%d0%b2%d1%80%d0%b5%d0%bc%d0%b5%d1%82%d0%be-%d0%bf%d0%be%d0%bb%d0%b7%d0%b8-%d0%b8-%d0%b5%d1%84%d0%b5%d0%ba%d1%82/",
+      "path": "/управление-на-времето-ползи-и-ефект/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%83%d1%80%d0%be%d0%ba-%d0%bd%d0%b0-%d0%b0%d0%b9%d0%bd%d1%89%d0%b0%d0%b9%d0%bd-%d0%b7%d0%b0-%d0%b2%d1%81%d0%b5%d0%ba%d0%b8-%d0%be%d1%82-%d0%bd%d0%b0%d1%81/",
+      "path": "/урок-на-айнщайн-за-всеки-от-нас/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%84%d0%b5%d0%b9%d1%81%d0%b1%d1%83%d0%ba-%d0%be%d1%82%d1%85%d0%b2%d1%8a%d1%80%d0%bb%d0%b8-%d0%be%d0%bf%d0%b8%d1%82%d0%b0-%d0%bc%d0%b8-%d0%b4%d0%b0-%d0%bf%d1%80%d0%be%d0%bc%d0%be%d1%82%d0%b8%d1%80/",
+      "path": "/фейсбук-отхвърли-опита-ми-да-промотир/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%84%d0%be%d1%80%d0%bc%d1%83%d0%bb%d0%b0%d1%82%d0%b0-%d0%bf%d0%bf/",
+      "path": "/формулата-пп/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%84%d1%83%d0%bd%d0%b4%d0%b0%d0%bc%d0%b5%d0%bd%d1%82%d0%b0%d0%bb%d0%bd%d0%b8-%d0%b8%d1%81%d1%82%d0%b8%d0%bd%d0%b8-%d0%b2-%d1%81%d1%84%d0%b5%d1%80%d0%b0%d1%82%d0%b0-%d0%bd%d0%b0-%d0%b7%d0%b4%d1%80/",
+      "path": "/фундаментални-истини-в-сферата-на-здр/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%85%d0%be%d0%b1%d0%b8-%d1%81%d0%bf%d0%b0%d1%81%d0%b5%d0%bd%d0%b8%d0%b5%d1%82%d0%be-%d0%bd%d0%b0-%d1%81%d0%b2%d0%b5%d1%82%d0%b0/",
+      "path": "/хоби-спасението-на-света/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%85%d1%80%d0%be%d0%bd%d0%b8%d1%87%d0%bd%d0%b8%d1%8f%d1%82-%d1%81%d1%82%d1%80%d0%b5%d1%81-%d0%b8-%d0%b5%d0%b4%d0%b8%d0%bd-%d0%b6%d0%b8%d0%b2%d0%be%d1%82-%d0%ba%d0%b0%d0%ba-%d1%81%d1%82%d1%80%d0%b5/",
+      "path": "/хроничният-стрес-и-един-живот-как-стре/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%87%d0%b5%d0%ba-%d0%bb%d0%b8%d1%81%d1%82%d0%be%d0%b2%d0%b5%d1%82%d0%b5-%d0%b8-%d1%83%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5%d1%82%d0%be-%d0%bd%d0%b0-%d0%b2%d1%80%d0%b5%d0%bc%d0%b5/",
+      "path": "/чек-листовете-и-управлението-на-време/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%87%d0%b5%d1%82%d0%b8%d1%80%d0%b8%d1%82%d0%b5-%d1%83%d1%81%d0%bb%d0%be%d0%b2%d0%b8%d1%8f-%d0%b7%d0%b0-%d0%bf%d1%80%d0%be%d1%86%d1%8a%d1%84%d1%82%d1%8f%d0%b2%d0%b0%d0%bd%d0%b5-%d0%bb%d0%b8%d1%87/",
+      "path": "/четирите-условия-за-процъфтяване-лич/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%89%d0%b0%d1%82%d1%81%d0%ba%d0%b8%d1%8f%d1%82-%d0%b4%d0%be%d0%bb%d0%b0%d1%80-%d0%be%d1%82%d0%bd%d0%be%d0%b2%d0%be-%d0%bd%d0%b0%d0%b9-%d0%bf%d1%80%d0%b5%d0%b4%d0%bf%d0%be%d1%87%d0%b8%d1%82%d0%b0/",
+      "path": "/щатският-долар-отново-най-предпочита/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%89%d0%b5-%d0%b3%d0%be%d1%80%d0%b8-%d0%bb%d0%b8-%d0%bf%d0%b0%d0%ba-%d0%bc%d0%b8%d0%bd%d0%b5%d0%b0%d0%bf%d0%be%d0%bb%d0%b8%d1%81-%d0%bf%d0%be%d1%80%d0%b0%d0%b4%d0%b8-%d0%b4%d0%b6%d0%be%d1%80%d0%b4/",
+      "path": "/ще-гори-ли-пак-минеаполис-поради-джорд/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/%d1%89%d0%be-%d1%89%d0%b5-%d1%80%d0%b5%d1%87%d0%b5-%d0%b7%d0%b4%d1%80%d0%b0%d0%b2%d0%b5/",
+      "path": "/що-ще-рече-здраве/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/10-%d0%bc%d0%b8%d0%bd%d1%83%d1%82%d0%bd%d0%b8%d1%8f-%d0%b1%d0%b8%d0%b1%d0%bb%d0%b5%d0%b9%d1%81%d0%ba%d0%b8-%d1%87%d0%b0%d1%81/",
+      "path": "/10-минутния-библейски-час/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/30-%d0%b5-%d0%bf%d0%be%d0%b2%d0%b5%d1%87%d0%b5-%d0%be%d1%82-300-%d0%b7%d0%b0%d1%82%d0%be%d0%b2%d0%b0-%d0%bd%d0%b5%d0%ba%d0%b0-%d1%81%d1%82%d0%b0%d0%bd%d0%b5%d0%bc-100/",
+      "path": "/30-е-повече-от-300-затова-нека-станем-100/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/300-%d0%b0%d0%b1%d0%be%d0%bd%d0%b0%d1%82%d0%b0-%d0%b2-youtube-%d0%b0-%d1%81%d0%b5%d0%b3%d0%b0-%d0%bd%d0%b0%d0%ba%d1%8a%d0%b4%d0%b5/",
+      "path": "/300-абоната-в-youtube-а-сега-накъде/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/apostolosonline-com-%d0%b5-%d0%b2%d0%b5%d1%87%d0%b5-%d0%b2-%d0%b4%d0%b5%d0%b9%d1%81%d1%82%d0%b2%d0%b8%d0%b5/",
+      "path": "/apostolosonline-com-е-вече-в-действие/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/bny-%d0%be%d0%b1%d1%8f%d0%b2%d0%b8-%d0%b1%d0%b8%d1%82%d0%ba%d0%be%d0%b9%d0%bd-%d0%b7%d0%b0-%d0%bc%d0%b5%d0%b9%d0%bd%d1%81%d1%82%d1%80%d0%b8%d0%b9%d0%bc/",
+      "path": "/bny-обяви-биткойн-за-мейнстрийм/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/fireflies/",
+      "path": "/fireflies/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/the-forgotten-martyrs-and-its-impact-on-our-faith/",
+      "path": "/the-forgotten-martyrs-and-its-impact-on-our-faith/",
+      "reason": "excluded-patreon"
+    },
+    {
+      "url": "https://apostolos.bg/type/video/",
+      "path": "/type/video/",
+      "reason": "wp-post-format-archive-not-migrated"
+    }
+  ]
+}

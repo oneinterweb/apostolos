@@ -1,0 +1,22 @@
+Георги Бакалов:
+  name: "Георги Бакалов"
+  bio: "Обединяващ апостол и визионер на Апостолска Реформирана Църква."
+  avatar: "/assets/images/logo.svg"
+  links:
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UC3wbdB5F9z7Oe6L0Fqyibyw"
+    - label: "Patreon"
+      icon: "fab fa-fw fa-patreon"
+      url: "https://www.patreon.com/apostolos"
+
+theeditor167:
+  name: "Георги Бакалов"
+  bio: "Обединяващ апостол и визионер на Апостолска Реформирана Църква."
+  avatar: "/assets/images/logo.svg"
+
+admin:
+  name: "admin"
+
+danielatrifonowa:
+  name: "danielatrifonowa"

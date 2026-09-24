@@ -1,0 +1,163 @@
+# apostolos.bg — static Jekyll site (Minimal Mistakes)
+# Encoding and language
+encoding: "utf-8"
+locale: "bg-BG"
+lang: "bg"
+timezone: Europe/Sofia
+title: "Апостолска Реформирана църква"
+title_separator: "|"
+subtitle: "Ecclesia reformata semper reformanda"
+description: "Сайт на Апостолска Реформирана църква. Ecclesia reformata semper reformanda."
+name: "Апостолска Реформирана църква"
+url: "https://oneinterweb.github.io"
+# Preview first at https://oneinterweb.github.io/apostolos/
+# To switch to the custom domain apostolos.bg, change the next line to:
+#   baseurl: ""
+# then add a CNAME file containing apostolos.bg (see README).
+baseurl: "/apostolos"
+repository: "oneinterweb/apostolos"
+
+minimal_mistakes_skin: "air"
+theme: minimal-mistakes-jekyll
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  parse_block_html: false
+highlighter: rouge
+lsi: false
+excerpt_separator: "<!--more-->"
+incremental: false
+words_per_minute: 200
+
+permalink: /:slug/
+paginate: 10
+paginate_path: /page/:num/
+
+search: true
+search_full_content: true
+search_provider: lunr
+
+# Comments dropped — no Disqus, no static comments.
+comments:
+  provider: false
+
+# WordPress used the "GA Google Analytics" plugin; the public survey did not
+# record a tracking id. Uncomment and set an id if you want GA later.
+# analytics:
+#   provider: "google-gtag"
+#   google:
+#     tracking_id: "G-XXXXXXXXXX"
+
+# PLACEHOLDER: create a Formspree form that delivers to gpbakalov@gmail.com
+# and replace this with the real endpoint, e.g. https://formspree.io/f/xxxxxxxx
+formspree_endpoint: "https://formspree.io/f/YOUR_FORM_ID"
+
+atom_feed:
+  hide: false
+  path: /feed.xml
+
+feed:
+  path: /feed.xml
+
+author:
+  name: "Георги Бакалов"
+  avatar: "/assets/images/logo.svg"
+  bio: "Обединяващ апостол и визионер на Апостолска Реформирана Църква."
+  location: "София, България"
+  links:
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UC3wbdB5F9z7Oe6L0Fqyibyw"
+    - label: "Patreon"
+      icon: "fab fa-fw fa-patreon"
+      url: "https://www.patreon.com/apostolos"
+
+footer:
+  links:
+    - label: "Контакт"
+      url: /contact/
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UC3wbdB5F9z7Oe6L0Fqyibyw"
+    - label: "Patreon"
+      icon: "fab fa-fw fa-patreon"
+      url: "https://www.patreon.com/apostolos"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: false
+      related: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      comments: false
+      share: false
+
+category_archive:
+  type: jekyll-archives
+  path: /category/
+
+tag_archive:
+  type: jekyll-archives
+  path: /tag/
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /category/:name/
+    tag: /tag/:name/
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-archives
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-data
+
+include:
+  - _pages
+  - .htaccess
+
+exclude:
+  - migration/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - node_modules
+  - "*.gemspec"
+  - tmp/
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  ignore:
+    envs: [development]
+  blanklines: false
+  profile: false
+
+# Preserve Cyrillic slugs in permalinks and archive URLs
+slugify:
+  mode: raw
+  cased: false
