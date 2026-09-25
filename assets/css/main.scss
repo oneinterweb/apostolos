@@ -167,18 +167,15 @@ $header-font-family: $tf-serif;
   position: relative;
   overflow: hidden;
   background-color: $tf-navy;
-  background-position: center 28%;
+  background-position: center 64%;
   background-size: cover;
-  padding: clamp(6rem, 14vw, 9.5rem) 0;
+  min-height: clamp(18rem, 72vw, 24rem);
+  padding: 0;
   text-align: center;
 
-  // Mobile is a tall, narrow band so cover already shows shoulders + mic.
-  // Desktop is a short wide strip; 28% + cover cropped to the head. Match
-  // the photo’s 750×444 frame more closely and pin the crop on the torso.
+  // Pin the crop on the torso so shoulders + mic stay in frame.
   @include breakpoint($medium) {
-    background-position: center 64%;
     min-height: clamp(28rem, 46vw, 40rem);
-    padding: 0;
   }
 }
 
@@ -194,7 +191,7 @@ $header-font-family: $tf-serif;
 
 .page__hero-slide {
   background-color: $tf-navy;
-  background-position: center 28%;
+  background-position: center 64%;
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0;
@@ -203,19 +200,10 @@ $header-font-family: $tf-serif;
   &.is-active {
     opacity: 1;
   }
-
-  @include breakpoint($medium) {
-    background-position: center 64%;
-  }
 }
 
 .page__hero--slider {
-  padding-bottom: 4.25rem;
   outline: none;
-
-  @include breakpoint($medium) {
-    padding-bottom: 0;
-  }
 }
 
 .page__hero--overlay .wrapper,
