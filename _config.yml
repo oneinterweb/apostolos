@@ -17,7 +17,9 @@ url: "https://oneinterweb.github.io"
 baseurl: "/apostolos"
 repository: "oneinterweb/apostolos"
 
-minimal_mistakes_skin: "air"
+# Colors and type follow Threefold Christian Alliance (threefold.life)
+# via assets/css/main.scss — no Minimal Mistakes skin.
+logo: "/assets/images/threefold-mark.svg"
 theme: minimal-mistakes-jekyll
 markdown: kramdown
 kramdown:
@@ -62,7 +64,7 @@ feed:
 
 author:
   name: "Георги Бакалов"
-  avatar: "/assets/images/logo.svg"
+  avatar: "/assets/images/threefold-mark.svg"
   bio: "Обединяващ апостол и визионер на Апостолска Реформирана Църква."
   location: "София, България"
   links:
@@ -77,6 +79,8 @@ footer:
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/channel/UC3wbdB5F9z7Oe6L0Fqyibyw"
+    - label: "Threefold"
+      url: "https://threefold.life"
 
 defaults:
   - scope:

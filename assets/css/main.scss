@@ -4,8 +4,124 @@
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+/* Threefold Christian Alliance palette — https://threefold.life */
+$tf-navy: #0b0620;
+$tf-navy-soft: #16102c;
+$tf-pink: #f21b6a;
+$tf-pink-hover: #d41458;
+$tf-white: #ffffff;
+$tf-off: #f6f4f8;
+$tf-ink: #1a1528;
+$tf-muted: #5c5670;
+$tf-line: #e6e1ee;
+$tf-serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+$tf-sans: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+
+$background-color: $tf-white;
+$text-color: $tf-ink;
+$muted-text-color: $tf-muted;
+$primary-color: $tf-pink;
+$border-color: $tf-line;
+$form-background-color: $tf-off;
+$footer-background-color: $tf-navy;
+$link-color: $tf-pink;
+$link-color-hover: $tf-pink-hover;
+$link-color-visited: $tf-pink;
+$masthead-link-color: $tf-ink;
+$masthead-link-color-hover: $tf-pink;
+$navicon-link-color-hover: $tf-pink;
+$serif: $tf-serif;
+$sans-serif: $tf-sans;
+$sans-serif-narrow: $tf-sans;
+$global-font-family: $tf-sans;
+$header-font-family: $tf-serif;
+
 @import "minimal-mistakes";
+
+.masthead {
+  background: $tf-white;
+  border-bottom: 1px solid $tf-line;
+}
+
+.greedy-nav {
+  background: $tf-white;
+}
+
+.site-logo img {
+  max-height: 2.5rem;
+  width: auto;
+}
+
+.site-title {
+  color: $tf-ink;
+  font-family: $tf-serif;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.site-subtitle {
+  color: $tf-muted;
+  font-family: $tf-sans;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.page__hero--overlay {
+  background-color: $tf-navy;
+}
+
+.page__hero--overlay .page__title,
+.page__hero--overlay .page__lead {
+  font-family: $tf-serif;
+}
+
+.archive__subtitle {
+  color: $tf-navy;
+  border-bottom-color: $tf-line;
+}
+
+.pagination {
+  .current,
+  .disabled.current {
+    background: $tf-pink;
+    border-color: $tf-pink;
+    color: $tf-white;
+  }
+
+  a:hover {
+    background: $tf-off;
+    color: $tf-pink;
+  }
+}
+
+.btn--primary {
+  background-color: $tf-navy;
+  border: 2px solid $tf-pink;
+  border-radius: 999px;
+  color: $tf-white;
+
+  &:hover {
+    background-color: $tf-pink;
+    border-color: $tf-pink;
+    color: $tf-white;
+  }
+}
+
+.page__footer {
+  background-color: $tf-navy;
+  color: #cfc9dc !important;
+}
+
+.page__footer-follow .social-icons a,
+.page__footer a {
+  color: $tf-white;
+}
+
+.page__footer a:hover {
+  color: $tf-pink;
+}
 
 .contact-form label {
   display: block;
@@ -19,6 +135,8 @@
   width: 100%;
   max-width: 40rem;
   margin-top: 0.35rem;
+  border: 1px solid $tf-line;
+  background: $tf-off;
 }
 
 .contact-form__hp {
