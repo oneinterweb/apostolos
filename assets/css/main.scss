@@ -146,10 +146,11 @@ $header-font-family: $tf-serif;
 }
 
 .hidden-links .masthead__dropdown-trigger {
+  display: block;
   margin: 0;
   padding: 10px 20px;
   width: 100%;
-  justify-content: flex-start;
+  text-align: start;
 }
 
 .hidden-links .masthead__submenu {
