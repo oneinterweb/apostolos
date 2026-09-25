@@ -25,6 +25,7 @@ redirect_from:
         <a
           href="{{ tag_name | slugify | prepend: site.tag_archive.path | append: '/' | relative_url }}"
           data-tag-count="{{ pair[1].size }}"
+          draggable="false"
         >{{ tag_name }}</a>
       {%- endif -%}
     {%- endfor -%}

@@ -51,6 +51,22 @@
   var midStartX = 0;
   var midStartY = 0;
   var frame = 0;
+  var DRAG_THRESHOLD = 10;
+
+  function linkFrom(el) {
+    if (!el) return null;
+    if (el.closest) return el.closest("[data-tag-stage] a");
+    return el.tagName === "A" ? el : null;
+  }
+
+  function isModified(event) {
+    return !!(event.ctrlKey || event.metaKey || event.shiftKey || event.altKey);
+  }
+
+  function openTag(link) {
+    if (!link || !link.href) return;
+    window.location.assign(link.href);
+  }
 
   function measure() {
     var box = root.getBoundingClientRect();
@@ -117,8 +133,12 @@
   }
 
   function onPointerDown(event) {
-    pointers[event.pointerId] = { x: event.clientX, y: event.clientY };
-    root.setPointerCapture(event.pointerId);
+    if (event.pointerType === "mouse" && event.button !== 0) return;
+    pointers[event.pointerId] = {
+      x: event.clientX,
+      y: event.clientY,
+      target: event.target
+    };
     var list = pointerList();
     if (list.length === 1) {
       dragging = true;
@@ -139,7 +159,8 @@
 
   function onPointerMove(event) {
     if (!pointers[event.pointerId]) return;
-    pointers[event.pointerId] = { x: event.clientX, y: event.clientY };
+    pointers[event.pointerId].x = event.clientX;
+    pointers[event.pointerId].y = event.clientY;
     var list = pointerList();
     if (list.length === 2) {
       var mid = midpoint(list[0], list[1]);
@@ -155,7 +176,13 @@
     if (!dragging || list.length !== 1) return;
     var dx = event.clientX - lastX;
     var dy = event.clientY - lastY;
-    if (Math.abs(dx) + Math.abs(dy) > 3) dragged = true;
+    if (!dragged && Math.abs(dx) + Math.abs(dy) > DRAG_THRESHOLD) {
+      dragged = true;
+      if (root.setPointerCapture) {
+        try { root.setPointerCapture(event.pointerId); } catch (err) {}
+      }
+    }
+    if (!dragged) return;
     rotY += dx * 0.007;
     rotX += dy * 0.007;
     rotX = Math.max(-1.2, Math.min(1.2, rotX));
@@ -164,14 +191,38 @@
   }
 
   function onPointerUp(event) {
+    var info = pointers[event.pointerId];
     delete pointers[event.pointerId];
-    if (!pointerList().length) dragging = false;
+    if (pointerList().length) return;
+    dragging = false;
+    if (root.hasPointerCapture && root.hasPointerCapture(event.pointerId)) {
+      try { root.releasePointerCapture(event.pointerId); } catch (err) {}
+    }
+    if (dragged || isModified(event)) return;
+    if (event.pointerType === "mouse" && event.button !== 0) return;
+    var link = linkFrom(info && info.target);
+    if (!link) {
+      link = linkFrom(document.elementFromPoint(event.clientX, event.clientY));
+    }
+    if (link) openTag(link);
   }
 
   function onClick(event) {
-    if (!dragged) return;
+    var link = linkFrom(event.target);
+    if (dragged) {
+      event.preventDefault();
+      event.stopPropagation();
+      return;
+    }
+    if (link && !isModified(event) && event.button === 0) {
+      event.preventDefault();
+      event.stopPropagation();
+      openTag(link);
+    }
+  }
+
+  function onDragStart(event) {
     event.preventDefault();
-    event.stopPropagation();
   }
 
   function onWheel(event) {
@@ -195,8 +246,12 @@
   root.addEventListener("pointerdown", onPointerDown);
   window.addEventListener("pointermove", onPointerMove);
   window.addEventListener("pointerup", onPointerUp);
-  window.addEventListener("pointercancel", onPointerUp);
+  window.addEventListener("pointercancel", function (event) {
+    delete pointers[event.pointerId];
+    if (!pointerList().length) dragging = false;
+  });
   stage.addEventListener("click", onClick, true);
+  stage.addEventListener("dragstart", onDragStart);
   root.addEventListener("wheel", onWheel, { passive: false });
   window.addEventListener("keydown", onKey);
   window.addEventListener("resize", function () {
