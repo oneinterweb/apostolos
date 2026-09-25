@@ -53,9 +53,10 @@
   var frame = 0;
 
   function measure() {
-    var w = root.clientWidth || window.innerWidth;
-    var h = root.clientHeight || window.innerHeight;
-    radius = Math.min(w, h) * (w < 640 ? 0.3 : 0.4);
+    var box = root.getBoundingClientRect();
+    var w = box.width || window.innerWidth;
+    var h = box.height || window.innerHeight;
+    radius = Math.min(w, h) * (w < 640 ? 0.3 : 0.36);
   }
 
   function pointerList() {
