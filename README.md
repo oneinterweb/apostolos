@@ -88,7 +88,7 @@ Workflow-ът `.github/workflows/pages.yml` вече ползва `actions/confi
 |---|---|
 | Заключени / абонаментски постове | Пропуснати; не се публикуват |
 | Коментари (16 публични) | Премахнати, без заместител |
-| Jetpack контактни форми (`/contact/`, `/contact-2/`, `/about/`) | Статична HTML форма към **Formspree** (`formspree_endpoint` в `_config.yml`, placeholder) |
+| Jetpack контактни форми (`/contact/`, `/contact-2/`, `/about/`) | Статична HTML форма към **Formspree** (`https://formspree.io/f/xzezvyob`, `formspree_endpoint` в `_config.yml`) |
 | Търсене `?s=` | Lunr търсене на [`/search/`](/search/) |
 | `/clients/` (Jetpack CRM) | Пренасочване към началото |
 | `/mailinglist/` (MailChimp / Mautic) | Пренасочване към началото |
@@ -102,7 +102,7 @@ Workflow-ът `.github/workflows/pages.yml` вече ползва `actions/confi
 ## Какво трябва да направи собственикът
 
 1. **Settings → Pages → Source: GitHub Actions.**
-2. Създайте Formspree форма с доставка към `gpbakalov@gmail.com` и сменете `formspree_endpoint` в `_config.yml` (сега е `https://formspree.io/f/YOUR_FORM_ID`).
+2. Formspree е вързан (`formspree_endpoint: https://formspree.io/f/xzezvyob`). Първото изпращане от нов домейн може да иска потвърждение в пощата на Formspree акаунта.
 3. Когато сте готови за домейн: едната промяна на `baseurl`, файл `CNAME`, DNS (виж по-горе).
 
 ## Лиценз на съдържанието

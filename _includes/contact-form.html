@@ -1,20 +1,21 @@
 {% comment %}
   Static replacement for the Jetpack contact forms on /contact/, /contact-2/, and /about/.
-  Deliveries go to gpbakalov@gmail.com once the owner creates the Formspree form
-  and puts the endpoint in _config.yml (formspree_endpoint).
+  Basic HTML POST to Formspree (no React, no Ajax bundle). After a successful
+  submit, Formspree redirects to /thanks/.
 {% endcomment %}
-{% assign endpoint = site.formspree_endpoint | default: "https://formspree.io/f/YOUR_FORM_ID" %}
+{% assign endpoint = site.formspree_endpoint | default: "https://formspree.io/f/xzezvyob" %}
 <form class="contact-form" action="{{ endpoint }}" method="POST" accept-charset="UTF-8">
   <input type="hidden" name="_subject" value="Запитване от apostolos.bg">
+  <input type="hidden" name="_next" value="{{ site.url }}{{ site.baseurl }}/thanks/">
   <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="contact-form__hp">
   <p>
     <label for="contact-name">Вашето име
-      <input id="contact-name" type="text" name="name" required>
+      <input id="contact-name" type="text" name="name" required autocomplete="name">
     </label>
   </p>
   <p>
     <label for="contact-email">Email
-      <input id="contact-email" type="email" name="email" required>
+      <input id="contact-email" type="email" name="email" required autocomplete="email">
     </label>
   </p>
   <p>

@@ -52,9 +52,8 @@ comments:
 #   google:
 #     tracking_id: "G-XXXXXXXXXX"
 
-# PLACEHOLDER: create a Formspree form that delivers to gpbakalov@gmail.com
-# and replace this with the real endpoint, e.g. https://formspree.io/f/xxxxxxxx
-formspree_endpoint: "https://formspree.io/f/YOUR_FORM_ID"
+# Contact forms on /contact/, /contact-2/, and /about/ POST here.
+formspree_endpoint: "https://formspree.io/f/xzezvyob"
 
 atom_feed:
   hide: false
