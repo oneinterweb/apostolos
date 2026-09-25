@@ -23,7 +23,8 @@
     var y = tags.length === 1 ? 0 : 1 - (i / (tags.length - 1)) * 2;
     var r = Math.sqrt(Math.max(0, 1 - y * y));
     var theta = golden * i;
-    el.style.fontSize = (0.7 + weight * 1.05) + "rem";
+    var shrink = el.textContent.trim().length > 16 ? 0.82 : 1;
+    el.style.fontSize = ((0.52 + weight * 0.72) * shrink) + "rem";
     points.push({
       el: el,
       x: Math.cos(theta) * r,
@@ -54,7 +55,7 @@
   function measure() {
     var w = root.clientWidth || window.innerWidth;
     var h = root.clientHeight || window.innerHeight;
-    radius = Math.min(w, h) * (w < 640 ? 0.34 : 0.38);
+    radius = Math.min(w, h) * (w < 640 ? 0.3 : 0.4);
   }
 
   function pointerList() {
@@ -83,7 +84,7 @@
       x = p.x * cosY + z * sinY;
       z = -p.x * sinY + z * cosY;
       depth = (z + 1) / 2;
-      size = 0.72 + depth * 0.55;
+      size = 0.5 + depth * 0.72;
       p.el.style.transform =
         "translate(-50%, -50%) translate(" +
         (x * radius * scale + panX) +
@@ -93,8 +94,8 @@
         size +
         ")";
       p.el.style.zIndex = String(Math.round(depth * 200));
-      p.el.style.opacity = String(0.2 + depth * 0.8);
-      p.el.style.pointerEvents = z > -0.08 ? "auto" : "none";
+      p.el.style.opacity = String(0.06 + Math.pow(depth, 1.6) * 0.94);
+      p.el.style.pointerEvents = z > 0.02 ? "auto" : "none";
     }
   }
 
