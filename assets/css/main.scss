@@ -206,25 +206,38 @@ $header-font-family: $tf-serif;
   outline: none;
 }
 
-.page__hero-motto {
+.page__hero-mottos {
   position: absolute;
   inset: 0;
-  z-index: 1;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.page__hero--overlay .page__hero-motto {
+  position: absolute;
+  inset: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
   margin: 0;
-  padding: 0 1.25rem 2.75rem;
-  color: $tf-white;
+  padding: 0 5vw;
+  color: #e6e0d4;
   font-family: "Cormorant Garamond", $tf-serif;
   font-style: italic;
   font-weight: 600;
-  font-size: clamp(1.55rem, 4.4vw, 3.4rem);
-  letter-spacing: 0.03em;
-  line-height: 1.2;
+  font-size: clamp(2.8rem, 9.5vw, 8rem);
+  letter-spacing: 0.01em;
+  line-height: 1.05;
   text-align: center;
-  text-shadow: 0 2px 22px rgba(#0b0620, 0.65);
-  pointer-events: none;
+  text-shadow: 0 3px 28px rgba(#0b0620, 0.55);
+  opacity: 0;
+  transition: opacity 0.8s ease;
+
+  &.is-active {
+    opacity: 1;
+  }
 }
 
 .page__hero--overlay .wrapper,

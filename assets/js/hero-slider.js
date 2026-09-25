@@ -3,6 +3,7 @@
   if (!root) return;
 
   var slides = Array.prototype.slice.call(root.querySelectorAll("[data-hero-slide]"));
+  var mottos = Array.prototype.slice.call(root.querySelectorAll("[data-hero-motto]"));
   var dots = Array.prototype.slice.call(root.querySelectorAll("[data-hero-dot]"));
   var prev = root.querySelector("[data-hero-prev]");
   var next = root.querySelector("[data-hero-next]");
@@ -19,6 +20,9 @@
       var on = i === index;
       slide.classList.toggle("is-active", on);
       slide.setAttribute("aria-hidden", on ? "false" : "true");
+    });
+    mottos.forEach(function (motto, i) {
+      motto.classList.toggle("is-active", i === index);
     });
     dots.forEach(function (dot, i) {
       var on = i === index;

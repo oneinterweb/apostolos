@@ -43,7 +43,7 @@
             role="img"
             aria-label="{{ slide_alt | escape }}"
             {% unless forloop.first %}aria-hidden="true"{% endunless %}
-          >{% if slide.motto %}<p class="page__hero-motto">{{ slide.motto | escape }}</p>{% endif %}</div>
+          ></div>
         {% endfor %}
       {% else %}
         {% capture overlay_img_path %}{{ page.header.overlay_image | relative_url }}{% endcapture %}
@@ -55,6 +55,15 @@
         ></div>
       {% endif %}
     </div>
+    {% if slides %}
+      <div class="page__hero-mottos" aria-hidden="true">
+        {% for slide in slides %}
+          {% if slide.motto %}
+            <div class="page__hero-motto{% if forloop.first %} is-active{% endif %}" data-hero-motto>{{ slide.motto | escape }}</div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
   {% endif %}
 
   <div class="wrapper">
