@@ -1,12 +1,10 @@
 main:
-  - title: "За АРЦ"
+  - title: "За нас"
     url: /about/
-  - title: "Контакт"
-    url: /contact/
-  - title: "Архив"
-    url: /year-archive/
   - title: "Теми"
     taxonomy: categories
+  - title: "Архив"
+    url: /year-archive/
   - title: "Ресурси"
     children:
       - title: "Портал за членове"
@@ -21,5 +19,5 @@ main:
         url: "https://youtube.com/@threefold-bg"
       - title: "Facebook"
         url: "https://www.facebook.com/apostolosbulgaria"
-  - title: "Търсене"
-    url: /search/
+  - title: "Контакт"
+    url: /contact/
