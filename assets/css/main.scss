@@ -88,15 +88,6 @@ $header-font-family: $tf-serif;
   font-family: $tf-serif;
 }
 
-.page__hero--overlay .page__title--motto {
-  margin: 0 auto;
-  max-width: 22em;
-  font-size: clamp(1.6rem, 3.6vw, 2.6rem);
-  font-weight: 500;
-  line-height: 1.3;
-  text-wrap: balance;
-}
-
 .archive__subtitle {
   color: $tf-navy;
   border-bottom-color: $tf-line;

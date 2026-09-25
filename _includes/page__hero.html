@@ -18,7 +18,6 @@
 {% endif %}
 
 {% assign image_description = image_description | markdownify | strip_html | strip_newlines | escape_once %}
-{% assign hero_lead = page.tagline | default: page.excerpt %}
 
 <div class="page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}"
   style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ overlay_img_path }}');{% endif %}"
@@ -26,9 +25,7 @@
   {% if page.header.overlay_color or page.header.overlay_image %}
     <div class="wrapper">
       {% if page.header.hide_title %}
-        <h1 id="page-title" class="page__title page__title--motto" itemprop="headline">
-          {{ hero_lead | markdownify | remove: "<p>" | remove: "</p>" }}
-        </h1>
+        <h1 id="page-title" class="visually-hidden" itemprop="headline">{{ site.title }}</h1>
       {% else %}
         <h1 id="page-title" class="page__title" itemprop="headline">
           {% if paginator and site.paginate_show_page_num %}
