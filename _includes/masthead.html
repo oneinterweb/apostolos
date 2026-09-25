@@ -16,20 +16,24 @@
         </a>
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
-            {% if link.children %}
+            {% if link.children or link.taxonomy == "categories" %}
               <li class="masthead__menu-item masthead__menu-item--has-children">
                 <button type="button" class="masthead__dropdown-trigger" aria-expanded="false" aria-haspopup="true">
                   {{ link.title }}
                 </button>
                 <ul class="masthead__submenu">
-                  {%- for child in link.children -%}
-                    <li>
-                      <a
-                        href="{{ child.url }}"
-                        {% if child.url contains "://" %}target="_blank" rel="noopener noreferrer"{% endif %}
-                      >{{ child.title }}</a>
-                    </li>
-                  {%- endfor -%}
+                  {% if link.taxonomy == "categories" %}
+                    {% include nav-themes.html %}
+                  {% else %}
+                    {%- for child in link.children -%}
+                      <li>
+                        <a
+                          href="{{ child.url }}"
+                          {% if child.url contains "://" %}target="_blank" rel="noopener noreferrer"{% endif %}
+                        >{{ child.title }}</a>
+                      </li>
+                    {%- endfor -%}
+                  {% endif %}
                 </ul>
               </li>
             {% else %}

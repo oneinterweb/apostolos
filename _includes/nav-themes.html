@@ -1,0 +1,18 @@
+{%- comment -%}
+  Live category list for the Теми dropdown. Rebuilds from site.categories
+  so a new post category appears here on the next build. Patreon is omitted.
+{%- endcomment -%}
+{%- assign theme_blob = "" -%}
+{%- for pair in site.categories -%}
+  {%- unless pair[0] == "patreon-ao" -%}
+    {%- capture theme_blob -%}{{ theme_blob }}{{ pair[0] }}||{%- endcapture -%}
+  {%- endunless -%}
+{%- endfor -%}
+{%- assign theme_names = theme_blob | split: "||" | sort_natural -%}
+{%- for cat in theme_names -%}
+  {%- if cat != "" -%}
+    <li>
+      <a href="{{ cat | slugify | prepend: site.category_archive.path | relative_url }}">{{ cat }}</a>
+    </li>
+  {%- endif -%}
+{%- endfor -%}

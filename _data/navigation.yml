@@ -5,6 +5,8 @@ main:
     url: /contact/
   - title: "Архив"
     url: /year-archive/
+  - title: "Теми"
+    taxonomy: categories
   - title: "Ресурси"
     children:
       - title: "Портал за членове"

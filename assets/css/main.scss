@@ -114,6 +114,8 @@ $header-font-family: $tf-serif;
   inset-inline-start: 0;
   z-index: 30;
   min-width: 16rem;
+  max-height: calc(100vh - 5.5rem);
+  overflow-y: auto;
   margin: 0;
   padding: 0.35rem 0;
   list-style: none;
