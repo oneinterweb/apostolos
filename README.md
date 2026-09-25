@@ -2,7 +2,7 @@
 
 Статично Jekyll огледало на [apostolos.bg](https://apostolos.bg), тема [Minimal Mistakes](https://mademistakes.com/work/minimal-mistakes-jekyll-theme/), деплой към GitHub Pages чрез Actions.
 
-Предварителен адрес: **https://oneinterweb.github.io/apostolos/** (`baseurl: "/apostolos"`). Коренът е 3D облак от етикети; традиционната начална страница е на `/начало/`.
+Публичен адрес: **https://apostolos.bg** (`baseurl: ""`, origin: GitHub Pages, edge: Cloudflare). Коренът е 3D облак от етикети; традиционната начална страница е на `/начало/`.
 
 ## Локално пускане
 
@@ -13,7 +13,7 @@ bundle install
 bundle exec jekyll serve
 ```
 
-Сайтът е на http://127.0.0.1:4000/apostolos/ .
+Сайтът е на http://127.0.0.1:4000/ .
 
 Пълна повторна миграция от публичния WordPress REST API:
 
@@ -90,30 +90,16 @@ header:
 
 Страниците живеят в `_pages/` със собствен `permalink: /slug/`.
 
-## Превключване към домейн apostolos.bg
+## Домейн и Cloudflare
 
-Промяната е нарочно едноредова, плюс DNS и един файл:
+Сайтът се публикува от GitHub Actions към GitHub Pages с custom domain `apostolos.bg` (файл `CNAME`). Cloudflare държи DNS и проксира apex/`www` към `oneinterweb.github.io`, за да остане WAF активен.
 
-1. В `_config.yml` сменете **само** този ред:
+- `_config.yml`: `url: "https://apostolos.bg"`, `baseurl: ""`
+- GitHub: **Settings → Pages → Source = GitHub Actions**, custom domain `apostolos.bg`
+- Cloudflare SSL/TLS: **Full (strict)** след като GitHub издаде сертификата; дотогава **Full**
+- Записите трябва да останат **Proxied** (оранжев облак). DNS-only изключва WAF.
 
-   ```yaml
-   baseurl: ""
-   ```
-
-   (сега е `baseurl: "/apostolos"`). По желание сменете и `url:` на `https://apostolos.bg`.
-
-2. Добавете файл `CNAME` в корена на хранилището с един ред:
-
-   ```
-   apostolos.bg
-   ```
-
-   **Не** добавяйте `CNAME`, докато преглеждате сайта на `oneinterweb.github.io/apostolos/`.
-
-3. В Cloudflare (акаунтът на prelomchurchbg) насочете apex `apostolos.bg` към GitHub Pages (A записи към [IP-тата на GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site) или CNAME flattening към `oneinterweb.github.io`). Препоръка за първото пускане: proxy **DNS only** (сива облачка), докато сертификатът се издаде.
-4. В GitHub: **Settings → Pages → Source = GitHub Actions** (не „Deploy from a branch“). Custom domain: `apostolos.bg`.
-
-Workflow-ът `.github/workflows/pages.yml` вече ползва `actions/configure-pages`, `actions/upload-pages-artifact` и `actions/deploy-pages`. След като домейнът е вързан, `base_path` от configure-pages става празен и съвпада с `baseurl: ""`.
+Workflow-ът `.github/workflows/pages.yml` ползва `actions/configure-pages`; при вързан custom domain `base_path` е празен и съвпада с `baseurl: ""`.
 
 ## Премахнати / заменени функции
 
@@ -136,7 +122,7 @@ Workflow-ът `.github/workflows/pages.yml` вече ползва `actions/confi
 
 1. **Settings → Pages → Source: GitHub Actions.**
 2. Formspree е вързан (`formspree_endpoint: https://formspree.io/f/xzezvyob`). Първото изпращане от нов домейн може да иска потвърждение в пощата на Formspree акаунта.
-3. Когато сте готови за домейн: едната промяна на `baseurl`, файл `CNAME`, DNS (виж по-горе).
+3. Домейнът `apostolos.bg` е вързан към GitHub Pages зад Cloudflare.
 
 ## Лиценз на съдържанието
 

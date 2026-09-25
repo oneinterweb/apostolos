@@ -10,12 +10,8 @@ title_separator: "|"
 subtitle: "Ecclesia reformata semper reformanda"
 description: "Сайт на Апостолска Реформирана църква. Ecclesia reformata semper reformanda."
 name: "Апостолска Реформирана църква"
-url: "https://oneinterweb.github.io"
-# Preview first at https://oneinterweb.github.io/apostolos/
-# To switch to the custom domain apostolos.bg, change the next line to:
-#   baseurl: ""
-# then add a CNAME file containing apostolos.bg (see README).
-baseurl: "/apostolos"
+url: "https://apostolos.bg"
+baseurl: ""
 repository: "oneinterweb/apostolos"
 
 # Colors and type follow Threefold Christian Alliance (threefold.life)
@@ -131,6 +127,7 @@ plugins:
 include:
   - _pages
   - .htaccess
+  - CNAME
 
 exclude:
   - migration/
