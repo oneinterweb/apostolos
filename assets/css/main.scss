@@ -41,10 +41,25 @@ $header-font-family: $tf-serif;
 .masthead {
   background: $tf-white;
   border-bottom: 1px solid $tf-line;
+  overflow: visible;
+  z-index: 40;
+}
+
+.masthead__inner-wrap,
+.masthead__menu,
+.greedy-nav {
+  overflow: visible;
 }
 
 .greedy-nav {
   background: $tf-white;
+}
+
+// MM clips overflowing nav items with overflow:hidden. That also clips the
+// absolutely positioned Ресурси submenu on desktop. Hidden-links (mobile /
+// overflow menu) already uses a static submenu, which is why it worked there.
+.greedy-nav .visible-links {
+  overflow: visible;
 }
 
 .site-logo img {
