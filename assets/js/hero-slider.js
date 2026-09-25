@@ -10,7 +10,7 @@
 
   var index = 0;
   var timer = null;
-  var delay = 7000;
+  var delay = 3000;
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   function show(nextIndex) {
