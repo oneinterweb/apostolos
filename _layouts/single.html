@@ -71,6 +71,12 @@ layout: default
         {% include page__date.html locale=locale %}
       </footer>
 
+      {% if page.author_profile or layout.author_profile %}
+        <aside class="page__author{% unless show_sidebar %} page__author--wide{% endunless %}" aria-label="Автор">
+          {% include author-profile.html locale=locale %}
+        </aside>
+      {% endif %}
+
       {% if page.share %}{% include social-share.html locale=locale %}{% endif %}
 
       {% include post_pagination.html locale=locale %}
@@ -87,12 +93,6 @@ layout: default
       {% endif %}
     {% endif %}
   </article>
-
-  {% if page.author_profile or layout.author_profile %}
-    <aside class="page__author{% unless show_sidebar %} page__author--wide{% endunless %}" aria-label="Автор">
-      {% include author-profile.html locale=locale %}
-    </aside>
-  {% endif %}
 
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
