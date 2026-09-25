@@ -3,7 +3,7 @@ title: "Мисии – Филипини 2016"
 permalink: "/missions-filipini-2016/"
 slug: "missions-filipini-2016"
 layout: "single"
-author_profile: true
+author_profile: false
 comments: false
 wp_id: 1225
 date: "2016-05-10T19:58:42"

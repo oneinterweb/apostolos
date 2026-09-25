@@ -3,7 +3,7 @@ title: "Еклесия Милитанс"
 permalink: "/ekklesiamilitans/"
 slug: "ekklesiamilitans"
 layout: "single"
-author_profile: true
+author_profile: false
 comments: false
 wp_id: 1384
 date: "2016-07-23T10:32:48"

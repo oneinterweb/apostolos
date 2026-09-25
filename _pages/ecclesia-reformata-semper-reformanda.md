@@ -3,7 +3,7 @@ title: "Ecclesia Reformata Semper Reformanda"
 permalink: "/ecclesia-reformata-semper-reformanda/"
 slug: "ecclesia-reformata-semper-reformanda"
 layout: "single"
-author_profile: true
+author_profile: false
 comments: false
 wp_id: 1045
 date: "2016-04-24T20:05:28"

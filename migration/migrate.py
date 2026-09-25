@@ -585,7 +585,7 @@ def convert_page(page: dict[str, Any], media_by_id: dict[int, dict[str, Any]]) -
         "permalink": f"/{slug}/",
         "slug": slug,
         "layout": "single",
-        "author_profile": True,
+        "author_profile": False,
         "comments": False,
         "wp_id": page["id"],
     }

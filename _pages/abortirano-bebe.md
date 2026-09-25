@@ -3,7 +3,7 @@ title: "ШОКИРАЩА СНИМКА на абортирано бебе на 20
 permalink: "/abortirano-bebe/"
 slug: "abortirano-bebe"
 layout: "single"
-author_profile: true
+author_profile: false
 comments: false
 wp_id: 1879
 date: "2017-07-22T11:32:44"

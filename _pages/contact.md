@@ -3,7 +3,7 @@ title: "Контакт"
 permalink: "/contact/"
 slug: "contact"
 layout: "single"
-author_profile: true
+author_profile: false
 comments: false
 wp_id: 916
 date: "2016-04-22T05:34:15"

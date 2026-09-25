@@ -3,7 +3,7 @@ title: "Потвръждение абонамент"
 permalink: "/confirmation/"
 slug: "confirmation"
 layout: "single"
-author_profile: true
+author_profile: false
 comments: false
 wp_id: 2516
 date: "2021-06-04T01:04:25"

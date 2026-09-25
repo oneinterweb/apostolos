@@ -3,7 +3,7 @@ title: "Докосни Филипините за Царството заедно
 permalink: "/filipini-2015/"
 slug: "filipini-2015"
 layout: "single"
-author_profile: true
+author_profile: false
 comments: false
 wp_id: 618
 date: "2015-04-28T14:19:23"

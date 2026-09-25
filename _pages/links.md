@@ -3,7 +3,7 @@ title: "Линкове"
 permalink: "/links/"
 slug: "links"
 layout: "single"
-author_profile: true
+author_profile: false
 comments: false
 wp_id: 2519
 date: "2021-06-04T14:11:32"

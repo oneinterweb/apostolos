@@ -3,7 +3,7 @@ title: "Помощ за деца в екстремна бедност във Ф�
 permalink: "/filipini-pomagane-bedni-deca/"
 slug: "filipini-pomagane-bedni-deca"
 layout: "single"
-author_profile: true
+author_profile: false
 comments: false
 wp_id: 705
 date: "2015-07-26T00:01:30"

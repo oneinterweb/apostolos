@@ -3,7 +3,7 @@ title: "За АРЦ"
 permalink: "/about/"
 slug: "about"
 layout: "single"
-author_profile: true
+author_profile: false
 comments: false
 wp_id: 915
 date: "2016-04-22T07:34:15"

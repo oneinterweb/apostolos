@@ -3,7 +3,7 @@ title: "Sample Page"
 permalink: "/sample-page/"
 slug: "sample-page"
 layout: "single"
-author_profile: true
+author_profile: false
 comments: false
 wp_id: 2
 date: "2021-01-14T03:25:19"
