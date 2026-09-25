@@ -433,6 +433,99 @@ $header-font-family: $tf-serif;
   object-position: center top;
 }
 
+.page--wide {
+  @media (min-width: 1024px) {
+    float: none;
+    width: 100%;
+    padding-inline-end: 0;
+  }
+}
+
+.page__author {
+  clear: both;
+  margin: 0 0 2rem;
+  padding: 1.75rem 0 0;
+  border-top: 1px solid $tf-line;
+}
+
+.page__author--wide {
+  @media (min-width: 1024px) {
+    width: 100%;
+  }
+}
+
+.page__author .h-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.15rem 1.4rem;
+  align-items: flex-start;
+}
+
+.page__author .author__avatar,
+.page__author .author__content,
+.page__author .author__urls-wrapper {
+  display: block;
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 0;
+  vertical-align: top;
+}
+
+.page__author .author__avatar {
+  flex: 0 0 auto;
+}
+
+.page__author .author__content {
+  flex: 1 1 14rem;
+  min-width: 0;
+  line-height: 1.45;
+}
+
+.page__author .author__name {
+  margin: 0 0 0.35rem;
+  font-family: $tf-serif;
+  font-size: 1.35rem;
+}
+
+.page__author .author__bio {
+  margin: 0;
+  color: $tf-muted;
+}
+
+.page__author .author__bio p {
+  margin: 0;
+}
+
+.page__author .author__urls-wrapper {
+  flex: 1 1 100%;
+}
+
+.page__author .author__urls-wrapper button {
+  display: none;
+}
+
+.page__author .author__urls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.1rem;
+  position: static;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.page__author .author__urls a {
+  color: $tf-ink;
+}
+
+.page__author .author__urls a:hover {
+  color: $tf-pink;
+}
+
 .page__featured-image {
   margin: 0 0 1.5rem;
 }

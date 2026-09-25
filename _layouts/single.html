@@ -20,10 +20,14 @@ layout: default
   {% endunless %}
 {% endif %}
 
+{%- assign show_sidebar = false -%}
+{%- if page.sidebar -%}
+  {%- assign show_sidebar = true -%}
+{%- endif -%}
 <div id="main" role="main">
   {% include sidebar.html locale=locale %}
 
-  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>
+  <article class="page h-entry{% unless show_sidebar %} page--wide{% endunless %}" itemscope itemtype="https://schema.org/CreativeWork"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | replace: '|', '&#124;' | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
@@ -83,6 +87,12 @@ layout: default
       {% endif %}
     {% endif %}
   </article>
+
+  {% if page.author_profile or layout.author_profile %}
+    <aside class="page__author{% unless show_sidebar %} page__author--wide{% endunless %}" aria-label="Автор">
+      {% include author-profile.html locale=locale %}
+    </aside>
+  {% endif %}
 
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
