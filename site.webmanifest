@@ -1,0 +1,22 @@
+{
+  "name": "Апостолска Реформирана църква",
+  "short_name": "АРЦ",
+  "description": "Сайт на Апостолска Реформирана църква. Ecclesia reformata semper reformanda.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#0b0620",
+  "theme_color": "#0b0620",
+  "lang": "bg",
+  "icons": [
+    {
+      "src": "/assets/images/android-chrome-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/android-chrome-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

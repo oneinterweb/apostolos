@@ -1,0 +1,68 @@
+{%- assign schema_org_id = '/#organization' | absolute_url -%}
+{%- assign schema_site_id = '/#website' | absolute_url -%}
+{%- assign schema_page_url = page.canonical_url | default: page.url | replace: "/index.html", "/" | absolute_url -%}
+{%- assign schema_logo_url = '/assets/images/threefold-mark-512.png' | absolute_url -%}
+{%- assign schema_share_image = page.header.og_image | default: page.header.overlay_image | default: page.header.image | default: page.header.teaser | default: site.og_image | absolute_url -%}
+{%- assign schema_name = site.social.name | default: site.name | default: site.title -%}
+{%- assign schema_description = page.description | default: page.excerpt | default: site.description | markdownify | strip_html | strip_newlines | strip -%}
+{%- assign schema_page_name = page.title | default: site.title | markdownify | strip_html | strip_newlines | strip -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["Organization", "Church"],
+      "@id": {{ schema_org_id | jsonify }},
+      "name": {{ schema_name | jsonify }},
+      "alternateName": ["Троен християнски алианс", "АРЦ", "Троен християнски алианс / АРЦ"],
+      "url": {{ '/' | absolute_url | jsonify }},
+      "description": {{ site.description | jsonify }},
+      "inLanguage": "bg-BG",
+      "logo": {
+        "@type": "ImageObject",
+        "url": {{ schema_logo_url | jsonify }},
+        "width": 512,
+        "height": 512,
+        "caption": {{ schema_name | jsonify }}
+      },
+      "image": {{ schema_share_image | jsonify }},
+      "sameAs": {{ site.social.links | jsonify }},
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "София",
+        "addressCountry": "BG"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": {{ schema_site_id | jsonify }},
+      "url": {{ '/' | absolute_url | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "alternateName": "АРЦ",
+      "description": {{ site.description | jsonify }},
+      "inLanguage": "bg-BG",
+      "publisher": {
+        "@id": {{ schema_org_id | jsonify }}
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": {{ schema_page_url | append: "#webpage" | jsonify }},
+      "url": {{ schema_page_url | jsonify }},
+      "name": {{ schema_page_name | jsonify }},
+      "description": {{ schema_description | jsonify }},
+      "inLanguage": "bg-BG",
+      "isPartOf": {
+        "@id": {{ schema_site_id | jsonify }}
+      },
+      "about": {
+        "@id": {{ schema_org_id | jsonify }}
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": {{ schema_share_image | jsonify }}
+      }
+    }
+  ]
+}
+</script>

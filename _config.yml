@@ -17,6 +17,18 @@ repository: "oneinterweb/apostolos"
 # Colors and type follow Threefold Christian Alliance (threefold.life)
 # via assets/css/main.scss — no Minimal Mistakes skin.
 logo: "/assets/images/threefold-mark.webp"
+og_image: /assets/images/og-card.jpg
+og_image_width: 1200
+og_image_height: 630
+og_image_alt: "Троен християнски алианс / Апостолска Реформирана църква"
+
+social:
+  type: Organization
+  name: "Апостолска Реформирана църква"
+  links:
+    - "https://youtube.com/@threefold-bg"
+    - "https://www.facebook.com/apostolosbulgaria"
+    - "https://threefold.life"
 theme: minimal-mistakes-jekyll
 markdown: kramdown
 kramdown:
@@ -128,6 +140,8 @@ include:
   - _pages
   - .htaccess
   - CNAME
+  - favicon.ico
+  - site.webmanifest
 
 exclude:
   - migration/
