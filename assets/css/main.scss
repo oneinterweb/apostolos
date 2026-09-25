@@ -217,6 +217,7 @@ $header-font-family: $tf-serif;
   position: absolute;
   inset: 0;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
@@ -238,6 +239,15 @@ $header-font-family: $tf-serif;
   &.is-active {
     opacity: 1;
   }
+}
+
+.page__hero--overlay .page__hero-motto-cite {
+  display: block;
+  margin-top: 0.15em;
+  font-size: 0.45em;
+  font-style: italic;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
 }
 
 .page__hero--overlay .wrapper,
@@ -305,7 +315,8 @@ $header-font-family: $tf-serif;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .page__hero-slide {
+  .page__hero-slide,
+  .page__hero--overlay .page__hero-motto {
     transition: none;
   }
 }
