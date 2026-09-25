@@ -57,7 +57,6 @@ formspree_endpoint: "https://formspree.io/f/xzezvyob"
 
 atom_feed:
   hide: false
-  path: /feed.xml
 
 feed:
   path: /feed.xml

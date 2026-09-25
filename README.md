@@ -50,13 +50,14 @@ header:
     - image: /assets/images/hero-zion.jpg
       alt: Български приятели на Сион
       position: center center
-      matte: false
+      motto: Прокламация на вярата...
     - image: /assets/images/hero-speaking.jpg
       alt: Георги Бакалов
-      position: center 42%
+      position: 68% 42%
+      motto: Дух на свобода...
 ```
 
-Сложете файловете в `assets/images/`. `position` е по желание (`center 64%`, `center center` и т.н.). `matte: false` маха тъмното покритие — ползвайте го за вече тъмни кадри.
+Сложете файловете в `assets/images/`. `position` е по желание. `motto` е един ред текст върху слайда. `matte: false` маха тъмното покритие.
 
 ## Как да добавите публикация
 

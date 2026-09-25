@@ -60,6 +60,7 @@ $header-font-family: $tf-serif;
 // overflow menu) already uses a static submenu, which is why it worked there.
 .greedy-nav .visible-links {
   overflow: visible;
+  align-items: center;
 }
 
 .site-logo img {
@@ -90,16 +91,15 @@ $header-font-family: $tf-serif;
 }
 
 .masthead__dropdown-trigger {
-  display: inline-flex;
-  align-items: center;
+  display: block;
   margin: 0 1rem;
   padding: 0;
   border: 0;
   background: none;
   color: $tf-ink;
   font: inherit;
+  line-height: inherit;
   cursor: pointer;
-  min-height: 44px;
 
   &:hover,
   &:focus-visible {
@@ -204,6 +204,27 @@ $header-font-family: $tf-serif;
 
 .page__hero--slider {
   outline: none;
+}
+
+.page__hero-motto {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0 1.25rem 2.75rem;
+  color: $tf-white;
+  font-family: "Cormorant Garamond", $tf-serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: clamp(1.55rem, 4.4vw, 3.4rem);
+  letter-spacing: 0.03em;
+  line-height: 1.2;
+  text-align: center;
+  text-shadow: 0 2px 22px rgba(#0b0620, 0.65);
+  pointer-events: none;
 }
 
 .page__hero--overlay .wrapper,
