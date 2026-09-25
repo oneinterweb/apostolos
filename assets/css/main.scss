@@ -433,6 +433,7 @@ $header-font-family: $tf-serif;
 .page__featured-image img {
   display: block;
   width: 100%;
+  max-width: 100%;
   height: auto;
   max-height: 28rem;
   object-fit: cover;
