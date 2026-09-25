@@ -425,3 +425,52 @@ $header-font-family: $tf-serif;
   height: auto;
   max-width: 100%;
 }
+
+.page__featured-image {
+  margin: 0 0 1.5rem;
+}
+
+.page__featured-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 28rem;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.list__item .archive__item {
+  display: flex;
+  gap: 1.1rem;
+  align-items: flex-start;
+}
+
+.list__item .archive__item-teaser {
+  flex: 0 0 7.5rem;
+  margin: 0;
+  max-height: 5.5rem;
+}
+
+.list__item .archive__item-teaser img {
+  display: block;
+  width: 7.5rem;
+  height: 5.5rem;
+  object-fit: cover;
+}
+
+.list__item .archive__item-body {
+  min-width: 0;
+  flex: 1;
+}
+
+@media (min-width: 48em) {
+  .list__item .archive__item-teaser {
+    flex-basis: 10rem;
+    max-height: 7rem;
+  }
+
+  .list__item .archive__item-teaser img {
+    width: 10rem;
+    height: 7rem;
+  }
+}
