@@ -559,6 +559,10 @@ $header-font-family: $tf-serif;
   object-fit: cover;
 }
 
+.list__item .archive__item-teaser img[src*="grehat-ne-e-samo-postapcka"] {
+  object-position: left center;
+}
+
 .list__item .archive__item-body {
   min-width: 0;
   flex: 1;
