@@ -79,7 +79,7 @@ footer:
       url: /contact/
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
-      url: "https://www.youtube.com/channel/UC3wbdB5F9z7Oe6L0Fqyibyw"
+      url: "https://youtube.com/@threefold-bg"
     - label: "Threefold"
       url: "https://threefold.life"
 
@@ -155,6 +155,9 @@ compress_html:
     envs: [development]
   blanklines: false
   profile: false
+
+after_footer_scripts:
+  - /assets/js/nav-dropdown.js
 
 # Preserve Cyrillic slugs in permalinks and archive URLs
 slugify:

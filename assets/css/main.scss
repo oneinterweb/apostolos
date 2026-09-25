@@ -70,6 +70,84 @@ $header-font-family: $tf-serif;
   text-transform: uppercase;
 }
 
+.masthead__menu-item--has-children {
+  position: relative;
+}
+
+.masthead__dropdown-trigger {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 1rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: $tf-ink;
+  font: inherit;
+  cursor: pointer;
+  min-height: 44px;
+
+  &:hover,
+  &:focus-visible {
+    color: $tf-pink;
+  }
+}
+
+.masthead__submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  inset-inline-start: 0;
+  z-index: 30;
+  min-width: 16rem;
+  margin: 0;
+  padding: 0.35rem 0;
+  list-style: none;
+  background: $tf-white;
+  border: 1px solid $tf-line;
+  box-shadow: 0 8px 24px rgba(#0b0620, 0.08);
+}
+
+.masthead__submenu a {
+  display: block;
+  margin: 0;
+  padding: 0.7rem 0.85rem;
+  color: $tf-ink;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.masthead__submenu a:hover,
+.masthead__submenu a:focus-visible {
+  color: $tf-pink;
+  background: $tf-off;
+}
+
+.masthead__menu-item--has-children:hover .masthead__submenu,
+.masthead__menu-item--has-children:focus-within .masthead__submenu,
+.masthead__menu-item--has-children.is-open .masthead__submenu {
+  display: block;
+}
+
+.hidden-links .masthead__dropdown-trigger {
+  margin: 0;
+  padding: 10px 20px;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.hidden-links .masthead__submenu {
+  display: block;
+  position: static;
+  min-width: 0;
+  border: 0;
+  box-shadow: none;
+  padding: 0 0 0.35rem;
+}
+
+.hidden-links .masthead__submenu a {
+  padding: 10px 20px 10px 2rem;
+}
+
 .page__hero--overlay {
   background-color: $tf-navy;
   background-position: center 28%;
