@@ -94,7 +94,7 @@ Workflow-ът `.github/workflows/pages.yml` вече ползва `actions/confi
 | `/mailinglist/` (MailChimp / Mautic) | Пренасочване към началото |
 | `/register`, `/members`, `/activity`, `/groups`, `/chatroom`, `/activate` | Пренасочване към началото |
 | Matomo, Mautic, Jetpack stats | Не се пренасят |
-| Google Analytics | Само закоментиран слот в `_config.yml` (в проучването няма запазен GA id) |
+| Google Analytics | GA4 `G-9522BW7CV0` (`analytics` в `_config.yml`, само при `JEKYLL_ENV=production`) |
 | Пагинация `/page/N/` | Запазена (10 поста на страница) |
 | `/category/<slug>/` и `/tag/<slug>/` | `jekyll-archives` |
 | YouTube embed-и и линкове за дарения | Остават статични |

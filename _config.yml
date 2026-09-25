@@ -45,12 +45,12 @@ search_provider: lunr
 comments:
   provider: false
 
-# WordPress used the "GA Google Analytics" plugin; the public survey did not
-# record a tracking id. Uncomment and set an id if you want GA later.
-# analytics:
-#   provider: "google-gtag"
-#   google:
-#     tracking_id: "G-XXXXXXXXXX"
+# GA4 — injected by Minimal Mistakes when JEKYLL_ENV=production
+# (GitHub Actions already sets that). Same gtag snippet as G-9522BW7CV0.
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-9522BW7CV0"
 
 # Contact forms on /contact/, /contact-2/, and /about/ POST here.
 formspree_endpoint: "https://formspree.io/f/xzezvyob"
