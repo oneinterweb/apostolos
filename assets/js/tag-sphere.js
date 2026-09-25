@@ -51,6 +51,7 @@
   var midStartX = 0;
   var midStartY = 0;
   var frame = 0;
+  var openedFromPointer = false;
   var DRAG_THRESHOLD = 10;
 
   function linkFrom(el) {
@@ -143,6 +144,7 @@
     if (list.length === 1) {
       dragging = true;
       dragged = false;
+      openedFromPointer = false;
       lastX = event.clientX;
       lastY = event.clientY;
     } else if (list.length === 2) {
@@ -204,17 +206,20 @@
     if (!link) {
       link = linkFrom(document.elementFromPoint(event.clientX, event.clientY));
     }
-    if (link) openTag(link);
+    if (link) {
+      openedFromPointer = true;
+      openTag(link);
+    }
   }
 
   function onClick(event) {
     var link = linkFrom(event.target);
-    if (dragged) {
+    if (dragged || openedFromPointer) {
       event.preventDefault();
       event.stopPropagation();
       return;
     }
-    if (link && !isModified(event) && event.button === 0) {
+    if (link && !isModified(event)) {
       event.preventDefault();
       event.stopPropagation();
       openTag(link);
