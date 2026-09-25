@@ -26,6 +26,37 @@ python3 migration/verify_urls.py
 
 Подробности: [`migration/README.md`](migration/README.md).
 
+## Начална снимка (hero)
+
+Предпочитан размер за началната лента: **1920 × 1080 px** (16:9), JPEG или WebP, около 150–400 KB.
+
+| | |
+|---|---|
+| Най-добре | 1920 × 1080 (16:9) |
+| За кадъра на сегашната снимка (750:444 ≈ 1.69:1) | 1920 × 1140 |
+| Минимум | 1600 × 900 |
+| Сегашният `hero-george.jpg` | 750 × 444 — твърде малък за retina desktop |
+
+Desktop hero-то е широка лента (`min-height` около 448–640 px, ширина на прозореца). Снимката се реже с `background-size: cover`. Дръжте лицето, раменете и микрофона в **долните две трети** — desktop качва кадъра на `center 64%`.
+
+Слайдерът е в `index.html` под `header.slides`. Стрелки и точки се показват само при 2+ слайда; смяната е през 7 секунди (спира при hover/фокус и при `prefers-reduced-motion`).
+
+```yaml
+header:
+  hide_title: true
+  overlay_color: "#0b0620"
+  overlay_filter: "linear-gradient(#0b0620b8, #0b0620c7)"
+  slides:
+    - image: /assets/images/hero-george.jpg
+      alt: Георги Бакалов
+    - image: /assets/images/hero-brand.jpg
+      alt: Троен християнски алианс
+      position: center center
+      matte: false
+```
+
+Сложете файловете в `assets/images/`. `position` е по желание (`center 64%`, `center center` и т.н.). `matte: false` маха тъмното покритие — ползвайте го за вече тъмни бранд кадри.
+
 ## Как да добавите публикация
 
 1. Създайте файл в `_posts/` с име `ГГГГ-ММ-ДД-кратък-slug.md` (датата е в часова зона Europe/Sofia).

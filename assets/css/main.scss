@@ -164,6 +164,8 @@ $header-font-family: $tf-serif;
 }
 
 .page__hero--overlay {
+  position: relative;
+  overflow: hidden;
   background-color: $tf-navy;
   background-position: center 28%;
   background-size: cover;
@@ -177,6 +179,112 @@ $header-font-family: $tf-serif;
     background-position: center 64%;
     min-height: clamp(28rem, 46vw, 40rem);
     padding: 0;
+  }
+}
+
+.page__hero-slides,
+.page__hero-slide {
+  position: absolute;
+  inset: 0;
+}
+
+.page__hero-slides {
+  z-index: 0;
+}
+
+.page__hero-slide {
+  background-color: $tf-navy;
+  background-position: center 28%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+
+  &.is-active {
+    opacity: 1;
+  }
+
+  @include breakpoint($medium) {
+    background-position: center 64%;
+  }
+}
+
+.page__hero--slider {
+  padding-bottom: 4.25rem;
+  outline: none;
+
+  @include breakpoint($medium) {
+    padding-bottom: 0;
+  }
+}
+
+.page__hero--overlay .wrapper,
+.page__hero-caption {
+  position: relative;
+  z-index: 1;
+}
+
+.page__hero-controls {
+  position: absolute;
+  inset-inline: 0;
+  bottom: 1.1rem;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  pointer-events: none;
+}
+
+.page__hero-nav,
+.page__hero-dot {
+  pointer-events: auto;
+  border: 0;
+  cursor: pointer;
+}
+
+.page__hero-nav {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 999px;
+  background: rgba($tf-navy, 0.35);
+  color: $tf-white;
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+.page__hero-nav:hover,
+.page__hero-nav:focus-visible {
+  background: $tf-pink;
+  color: $tf-white;
+}
+
+.page__hero-dots {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.page__hero-dot {
+  width: 0.7rem;
+  height: 0.7rem;
+  padding: 0;
+  border-radius: 999px;
+  background: rgba($tf-white, 0.45);
+}
+
+.page__hero-dot.is-active,
+.page__hero-dot:hover,
+.page__hero-dot:focus-visible {
+  background: $tf-pink;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page__hero-slide {
+    transition: none;
   }
 }
 

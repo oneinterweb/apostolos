@@ -1,5 +1,4 @@
 {% assign locale = include.locale | default: site.locale %}
-{% capture overlay_img_path %}{{ page.header.overlay_image | relative_url }}{% endcapture %}
 
 {% if page.header.overlay_filter contains "gradient" %}
   {% capture overlay_filter %}{{ page.header.overlay_filter }}{% endcapture %}
@@ -18,41 +17,104 @@
 {% endif %}
 
 {% assign image_description = image_description | markdownify | strip_html | strip_newlines | escape_once %}
+{% assign slides = page.header.slides %}
+{% assign slide_count = slides | size %}
 
-<div class="page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}"
-  style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ overlay_img_path }}');{% endif %}"
+{% if slide_count == 0 and page.header.overlay_image %}
+  {% assign slide_count = 1 %}
+{% endif %}
+
+{% if page.header.overlay_color or page.header.overlay_image or slide_count > 0 %}
+<div
+  class="page__hero--overlay{% if slide_count > 1 %} page__hero--slider{% endif %}"
+  {% if slide_count > 1 %}data-hero-slider tabindex="0" role="region" aria-roledescription="carousel" aria-label="Начални изображения"{% endif %}
+  style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %}"
 >
-  {% if page.header.overlay_color or page.header.overlay_image %}
-    <div class="wrapper">
-      {% if page.header.hide_title %}
-        <h1 id="page-title" class="visually-hidden" itemprop="headline">{{ site.title }}</h1>
-      {% else %}
-        <h1 id="page-title" class="page__title" itemprop="headline">
-          {% if paginator and site.paginate_show_page_num %}
-            {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
-          {% else %}
-            {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
-          {% endif %}
-        </h1>
-        {% if page.tagline %}
-          <p class="page__lead">{{ page.tagline | markdownify | remove: "<p>" | remove: "</p>" }}</p>
-        {% elsif page.header.show_overlay_excerpt != false and page.excerpt %}
-          <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
-        {% endif %}
-      {% endif %}
-      {% include page__meta.html locale=locale %}
-      {% if page.header.actions %}
-        <p>
-        {% for action in page.header.actions %}
-          <a href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large">{{ action.label | default: site.data.ui-text[locale].more_label | default: "Learn More" }}</a>
+  {% if slide_count > 0 %}
+    <div class="page__hero-slides">
+      {% if slides %}
+        {% for slide in slides %}
+          {% capture slide_img %}{{ slide.image | relative_url }}{% endcapture %}
+          {% assign slide_alt = slide.alt | default: image_description %}
+          <div
+            class="page__hero-slide{% if forloop.first %} is-active{% endif %}"
+            data-hero-slide
+            style="background-image: {% unless slide.matte == false %}{% if overlay_filter %}{{ overlay_filter }}, {% endif %}{% endunless %}url('{{ slide_img }}');{% if slide.position %} background-position: {{ slide.position }};{% endif %}"
+            role="img"
+            aria-label="{{ slide_alt | escape }}"
+            {% unless forloop.first %}aria-hidden="true"{% endunless %}
+          ></div>
         {% endfor %}
-        </p>
+      {% else %}
+        {% capture overlay_img_path %}{{ page.header.overlay_image | relative_url }}{% endcapture %}
+        <div
+          class="page__hero-slide is-active"
+          style="background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ overlay_img_path }}');"
+          role="img"
+          aria-label="{{ image_description }}"
+        ></div>
       {% endif %}
     </div>
-  {% else %}
-    <img src="{{ page.header.image | relative_url }}" alt="{{ image_description }}" class="page__hero-image">
   {% endif %}
+
+  <div class="wrapper">
+    {% if page.header.hide_title %}
+      <h1 id="page-title" class="visually-hidden" itemprop="headline">{{ site.title }}</h1>
+    {% else %}
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        {% if paginator and site.paginate_show_page_num %}
+          {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
+        {% else %}
+          {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
+        {% endif %}
+      </h1>
+      {% if page.tagline %}
+        <p class="page__lead">{{ page.tagline | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+      {% elsif page.header.show_overlay_excerpt != false and page.excerpt %}
+        <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+      {% endif %}
+    {% endif %}
+    {% include page__meta.html locale=locale %}
+    {% if page.header.actions %}
+      <p>
+      {% for action in page.header.actions %}
+        <a href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large">{{ action.label | default: site.data.ui-text[locale].more_label | default: "Learn More" }}</a>
+      {% endfor %}
+      </p>
+    {% endif %}
+  </div>
+
+  {% if slide_count > 1 %}
+    <div class="page__hero-controls">
+      <button type="button" class="page__hero-nav page__hero-nav--prev" data-hero-prev aria-label="Предишно изображение">
+        <span aria-hidden="true">‹</span>
+      </button>
+      <div class="page__hero-dots" role="tablist" aria-label="Слайдове">
+        {% for slide in slides %}
+          <button
+            type="button"
+            class="page__hero-dot{% if forloop.first %} is-active{% endif %}"
+            data-hero-dot
+            aria-label="Слайд {{ forloop.index }}"
+            {% if forloop.first %}aria-current="true"{% endif %}
+          ></button>
+        {% endfor %}
+      </div>
+      <button type="button" class="page__hero-nav page__hero-nav--next" data-hero-next aria-label="Следващо изображение">
+        <span aria-hidden="true">›</span>
+      </button>
+    </div>
+  {% endif %}
+
   {% if page.header.caption %}
     <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
   {% endif %}
 </div>
+{% elsif page.header.image %}
+<div class="page__hero">
+  <img src="{{ page.header.image | relative_url }}" alt="{{ image_description }}" class="page__hero-image">
+  {% if page.header.caption %}
+    <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+  {% endif %}
+</div>
+{% endif %}

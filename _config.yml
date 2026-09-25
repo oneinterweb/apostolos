@@ -157,6 +157,7 @@ compress_html:
 
 after_footer_scripts:
   - /assets/js/nav-dropdown.js
+  - /assets/js/hero-slider.js
 
 # Preserve Cyrillic slugs in permalinks and archive URLs
 slugify:
