@@ -2,7 +2,7 @@
 
 Статично Jekyll огледало на [apostolos.bg](https://apostolos.bg), тема [Minimal Mistakes](https://mademistakes.com/work/minimal-mistakes-jekyll-theme/), деплой към GitHub Pages чрез Actions.
 
-Предварителен адрес: **https://oneinterweb.github.io/apostolos/** (`baseurl: "/apostolos"`).
+Предварителен адрес: **https://oneinterweb.github.io/apostolos/** (`baseurl: "/apostolos"`). Коренът е 3D облак от етикети; традиционната начална страница е на `/начало/`.
 
 ## Локално пускане
 
@@ -39,7 +39,7 @@ python3 migration/verify_urls.py
 
 Desktop hero-то е широка лента (`min-height` около 448–640 px, ширина на прозореца). Снимката се реже с `background-size: cover`. Дръжте лицето, раменете и ръцете във кадъра чрез `position` на слайда.
 
-Слайдерът е в `index.html` под `header.slides`. Стрелки и точки се показват само при 2+ слайда; първата смяна е 3 секунди след зареждане, после през 3 секунди (спира при hover/фокус и при `prefers-reduced-motion`).
+Слайдерът е в `_pages/начало.md` под `header.slides`. Стрелки и точки се показват само при 2+ слайда; първата смяна е 3 секунди след зареждане, после през 3 секунди (спира при hover/фокус и при `prefers-reduced-motion`).
 
 ```yaml
 header:
@@ -128,7 +128,7 @@ Workflow-ът `.github/workflows/pages.yml` вече ползва `actions/confi
 | `/register`, `/members`, `/activity`, `/groups`, `/chatroom`, `/activate` | Пренасочване към началото |
 | Matomo, Mautic, Jetpack stats | Не се пренасят |
 | Google Analytics | GA4 `G-9522BW7CV0` (`analytics` в `_config.yml`, само при `JEKYLL_ENV=production`) |
-| Пагинация `/page/N/` | Запазена (10 поста на страница) |
+| Пагинация `/page/N/` | Началото на блога е `/начало/` (10 последни поста); пълният списък е `/year-archive/` |
 | `/category/<slug>/` и `/tag/<slug>/` | `jekyll-archives` |
 | YouTube embed-и и линкове за дарения | Остават статични |
 

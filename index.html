@@ -1,30 +1,9 @@
 ---
-layout: home
+layout: sphere
+title: "Апостолска Реформирана църква"
+excerpt: "Облак от теми. Изберете етикет или отворете Начало."
 author_profile: false
-header:
-  hide_title: true
-  overlay_color: "#0b0620"
-  overlay_image: /assets/images/hero-speaking.jpg
-  overlay_filter: "linear-gradient(#0b0620b8, #0b0620c7)"
-  image_description: "Георги Бакалов"
-  slides:
-    - image: /assets/images/hero-zion.jpg
-      alt: Български приятели на Сион
-      position: center center
-      motto: Прокламация на вярата...
-    - image: /assets/images/hero-speaking.jpg
-      alt: Георги Бакалов
-      position: 68% 42%
-      motto: Дух на свобода...
-    - image: /assets/images/hero-stadium.jpg
-      alt: Проповед на стадион
-      position: center 38%
-      motto: Исторически промени...
-    - image: /assets/images/hero-arms.jpg
-      alt: Ръце към небето
-      position: center 12%
-      motto: Три съгласни в едно
-      motto_cite: 1 Йоан 5:18
+sitemap: true
 redirect_from:
   - /clients/
   - /mailinglist/
@@ -35,3 +14,32 @@ redirect_from:
   - /chatroom/
   - /activate/
 ---
+
+<h1 class="visually-hidden">{{ site.title }}</h1>
+
+<div class="tag-sphere" data-tag-sphere>
+  <div class="tag-sphere__stage" data-tag-stage>
+    {%- for pair in site.tags -%}
+      {%- assign tag_name = pair[0] -%}
+      {%- if tag_name != "" -%}
+        <a
+          href="{{ tag_name | slugify | prepend: site.tag_archive.path | append: '/' | relative_url }}"
+          data-tag-count="{{ pair[1].size }}"
+        >{{ tag_name }}</a>
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+</div>
+
+<noscript>
+  <ul class="tag-sphere__fallback">
+    {%- for pair in site.tags -%}
+      {%- assign tag_name = pair[0] -%}
+      {%- if tag_name != "" -%}
+        <li>
+          <a href="{{ tag_name | slugify | prepend: site.tag_archive.path | append: '/' | relative_url }}">{{ tag_name }}</a>
+        </li>
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+</noscript>

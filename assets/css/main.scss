@@ -482,3 +482,125 @@ $header-font-family: $tf-serif;
     height: 7rem;
   }
 }
+
+.archive__see-all {
+  margin: 1.5rem 0 0;
+}
+
+.layout--sphere,
+.layout--sphere .sphere-main {
+  min-height: 100vh;
+  margin: 0;
+  background: $tf-navy;
+  color: #e6e0d4;
+}
+
+.layout--sphere {
+  overflow: hidden;
+}
+
+.layout--sphere .masthead,
+.layout--sphere .page__footer,
+.layout--sphere .search-content,
+.layout--sphere .greedy-nav {
+  display: none;
+}
+
+.sphere-skip {
+  position: absolute;
+  left: -9999px;
+}
+
+.sphere-skip:focus {
+  left: 1rem;
+  top: 1rem;
+  z-index: 30;
+  color: #e6e0d4;
+}
+
+.sphere-home {
+  position: fixed;
+  top: 1.15rem;
+  right: 1.35rem;
+  z-index: 20;
+  color: rgba(#e6e0d4, 0.48);
+  font-family: $tf-sans;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.sphere-home:hover,
+.sphere-home:focus-visible {
+  color: $tf-pink;
+}
+
+.tag-sphere {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  touch-action: none;
+  cursor: grab;
+  overflow: hidden;
+}
+
+.tag-sphere:active {
+  cursor: grabbing;
+}
+
+.tag-sphere__stage {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+
+.tag-sphere__stage a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #e6e0d4;
+  font-family: "Cormorant Garamond", $tf-serif;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.1;
+  text-decoration: none;
+  white-space: nowrap;
+  will-change: transform, opacity;
+  text-shadow: 0 1px 8px rgba(#0b0620, 0.45);
+}
+
+.tag-sphere__stage a:hover,
+.tag-sphere__stage a:focus-visible {
+  color: $tf-pink;
+}
+
+.tag-sphere.is-static .tag-sphere__stage {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 0.65rem 1.1rem;
+  padding: 4.5rem 1.25rem 2rem;
+}
+
+.tag-sphere.is-static .tag-sphere__stage a {
+  position: static;
+  transform: none !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
+
+.tag-sphere__fallback {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1rem;
+  margin: 0;
+  padding: 4.5rem 1.25rem 2rem;
+  list-style: none;
+}
+
+.tag-sphere__fallback a {
+  color: #e6e0d4;
+}

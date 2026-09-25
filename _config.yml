@@ -34,8 +34,6 @@ incremental: false
 words_per_minute: 200
 
 permalink: /:slug/
-paginate: 10
-paginate_path: /page/:num/
 
 search: true
 search_full_content: true

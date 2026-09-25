@@ -1,0 +1,20 @@
+---
+---
+{%- assign locale = page.locale | default: layout.locale | default: site.locale -%}
+<!doctype html>
+{% include copyright.html %}
+<html lang="{{ locale | replace: '_', '-' | default: 'bg-BG' }}" class="no-js" dir="ltr">
+  <head>
+    {% include head.html locale=locale %}
+    {% include head/custom.html %}
+  </head>
+  <body class="layout--sphere">
+    <a class="sphere-skip" href="#sphere-home">Към Начало</a>
+    <a id="sphere-home" class="sphere-home" href="{{ '/начало/' | relative_url }}">Начало</a>
+    <main class="sphere-main" id="main">
+      {{ content }}
+    </main>
+    <script src="{{ '/assets/js/tag-sphere.js' | relative_url }}"></script>
+    {% include analytics.html %}
+  </body>
+</html>
