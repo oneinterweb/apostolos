@@ -12,7 +12,7 @@
 {%- for cat in theme_names -%}
   {%- if cat != "" -%}
     <li>
-      <a href="{{ cat | slugify | prepend: site.category_archive.path | relative_url }}">{{ cat }}</a>
+      <a href="{{ cat | slugify | prepend: site.category_archive.path | append: '/' | relative_url }}">{{ cat }}</a>
     </li>
   {%- endif -%}
 {%- endfor -%}
