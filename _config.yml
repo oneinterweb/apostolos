@@ -19,7 +19,7 @@ repository: "oneinterweb/apostolos"
 
 # Colors and type follow Threefold Christian Alliance (threefold.life)
 # via assets/css/main.scss — no Minimal Mistakes skin.
-logo: "/assets/images/threefold-mark.svg"
+logo: "/assets/images/threefold-mark.webp"
 theme: minimal-mistakes-jekyll
 markdown: kramdown
 kramdown:

@@ -48,8 +48,10 @@ $header-font-family: $tf-serif;
 }
 
 .site-logo img {
-  max-height: 2.5rem;
-  width: auto;
+  display: block;
+  width: 40px;
+  height: 40px;
+  max-height: 40px;
 }
 
 .site-title {
