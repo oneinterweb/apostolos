@@ -426,6 +426,13 @@ $header-font-family: $tf-serif;
   max-width: 100%;
 }
 
+.author__avatar img {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  object-position: center top;
+}
+
 .page__featured-image {
   margin: 0 0 1.5rem;
 }

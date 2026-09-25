@@ -1,7 +1,7 @@
 Георги Бакалов:
   name: "Георги Бакалов"
   bio: "Обединяващ апостол и визионер на Апостолска Реформирана Църква."
-  avatar: "/assets/images/threefold-mark.svg"
+  avatar: "/assets/images/georgi-bakalov.webp"
   links:
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
@@ -10,7 +10,7 @@
 theeditor167:
   name: "Георги Бакалов"
   bio: "Обединяващ апостол и визионер на Апостолска Реформирана Църква."
-  avatar: "/assets/images/threefold-mark.svg"
+  avatar: "/assets/images/georgi-bakalov.webp"
 
 admin:
   name: "admin"
