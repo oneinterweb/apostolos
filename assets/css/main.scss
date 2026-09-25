@@ -72,11 +72,29 @@ $header-font-family: $tf-serif;
 
 .page__hero--overlay {
   background-color: $tf-navy;
+  background-position: center 28%;
+  background-size: cover;
+  padding: clamp(6rem, 14vw, 9.5rem) 0;
+  text-align: center;
+}
+
+.page__hero--overlay .wrapper {
+  display: flex;
+  justify-content: center;
 }
 
 .page__hero--overlay .page__title,
 .page__hero--overlay .page__lead {
   font-family: $tf-serif;
+}
+
+.page__hero--overlay .page__title--motto {
+  margin: 0 auto;
+  max-width: 22em;
+  font-size: clamp(1.6rem, 3.6vw, 2.6rem);
+  font-weight: 500;
+  line-height: 1.3;
+  text-wrap: balance;
 }
 
 .archive__subtitle {
