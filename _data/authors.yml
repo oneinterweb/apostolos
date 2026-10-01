@@ -9,15 +9,23 @@
 
 Иво Орешков:
   name: "Иво Орешков"
-  bio: "Художник и сватбен фотограф."
-  avatar: "/assets/images/ivo-oreshkov.webp"
-  home: "/автор/иво-орешков/"
+  bio: "Художник и сватбен фотограф. От 1999 г. живее свободен от наркотична зависимост, а от 2008 г. ръководи „Изход“ – група за взаимопомощ към наркозависими."
+  avatar: "/assets/images/ivo-oreshkov-2.webp"
+  home: "https://www.oreshkov.bg"
+  links:
+    - label: "oreshkov.bg"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.oreshkov.bg"
 
 ivo-oreshkov:
   name: "Иво Орешков"
-  bio: "Художник и сватбен фотограф."
-  avatar: "/assets/images/ivo-oreshkov.webp"
-  home: "/автор/иво-орешков/"
+  bio: "Художник и сватбен фотограф. От 1999 г. живее свободен от наркотична зависимост, а от 2008 г. ръководи „Изход“ – група за взаимопомощ към наркозависими."
+  avatar: "/assets/images/ivo-oreshkov-2.webp"
+  home: "https://www.oreshkov.bg"
+  links:
+    - label: "oreshkov.bg"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.oreshkov.bg"
 
 theeditor167:
   name: "Георги Бакалов"
