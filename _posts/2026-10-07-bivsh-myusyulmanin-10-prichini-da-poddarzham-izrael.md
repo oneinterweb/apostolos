@@ -89,4 +89,4 @@ image: "/assets/uploads/2026/10/bivsh-myusyulmanin-10-prichini-da-poddarzham-izr
 
 Общественото мнение е срещу Израел. Нашите убеждения не трябва да се променят според „общественото мнение“. Айдемир показва как и защо това е възможно.
 
-*Английската версия на тази статия можете да прочетете на [threefold.life](https://threefold.life/post/ex-muslim-10-reasons-to-support-israel/).*
+Source: <https://threefold.life/post/ex-muslim-10-reasons-to-support-israel/>
