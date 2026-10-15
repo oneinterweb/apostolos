@@ -726,3 +726,17 @@ html:has(.layout--sphere) {
 .tag-sphere__fallback a {
   color: #e6e0d4;
 }
+
+/* Related-post / grid teasers: show full 1200x630 thumbnails */
+.grid__item .archive__item-teaser {
+  max-height: none !important;
+  background: $tf-navy;
+}
+
+.grid__item .archive__item-teaser img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1200 / 630;
+  object-fit: contain;
+}
