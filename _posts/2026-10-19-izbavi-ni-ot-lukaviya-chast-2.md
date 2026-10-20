@@ -1,7 +1,7 @@
 ---
 title: "Избави ни от лукавия – да търсим Божията помощ всеки ден: част 2"
-date: "2026-10-20T13:00:00"
-last_modified_at: "2026-10-20T13:00:00"
+date: "2026-10-19T19:00:00-05:00"
+last_modified_at: "2026-10-19T19:00:00-05:00"
 permalink: "/izbavi-ni-ot-lukaviya-chast-2/"
 slug: "izbavi-ni-ot-lukaviya-chast-2"
 author: "Георги Бакалов"
