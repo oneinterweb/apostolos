@@ -535,8 +535,8 @@ $header-font-family: $tf-serif;
   width: 100%;
   max-width: 100%;
   height: auto;
-  max-height: 28rem;
-  object-fit: cover;
+  max-height: none;
+  object-fit: contain;
   border-radius: 2px;
 }
 
@@ -547,20 +547,19 @@ $header-font-family: $tf-serif;
 }
 
 .list__item .archive__item-teaser {
-  flex: 0 0 7.5rem;
+  flex: 0 0 9rem;
   margin: 0;
-  max-height: 5.5rem;
+  max-height: none;
+  background: $tf-navy;
 }
 
+/* Thumbnails are 1200x630 with text: show the whole image, never crop */
 .list__item .archive__item-teaser img {
   display: block;
-  width: 7.5rem;
-  height: 5.5rem;
-  object-fit: cover;
-}
-
-.list__item .archive__item-teaser img[src*="grehat-ne-e-samo-postapcka"] {
-  object-position: left center;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1200 / 630;
+  object-fit: contain;
 }
 
 .list__item .archive__item-body {
@@ -570,13 +569,7 @@ $header-font-family: $tf-serif;
 
 @media (min-width: 48em) {
   .list__item .archive__item-teaser {
-    flex-basis: 10rem;
-    max-height: 7rem;
-  }
-
-  .list__item .archive__item-teaser img {
-    width: 10rem;
-    height: 7rem;
+    flex-basis: 14rem;
   }
 }
 
@@ -732,4 +725,18 @@ html:has(.layout--sphere) {
 
 .tag-sphere__fallback a {
   color: #e6e0d4;
+}
+
+/* Related-post / grid teasers: show full 1200x630 thumbnails */
+.grid__item .archive__item-teaser {
+  max-height: none !important;
+  background: $tf-navy;
+}
+
+.grid__item .archive__item-teaser img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1200 / 630;
+  object-fit: contain;
 }
