@@ -18,6 +18,9 @@ tags:
   - "християнски-живот"
   - "еквадор"
 comments: false
+header:
+  teaser: /assets/uploads/2026/10/razpyatie-ubi-katolicheski-sveshtenik-po-vreme-na-liturgiya.jpg
+image: "/assets/uploads/2026/10/razpyatie-ubi-katolicheski-sveshtenik-po-vreme-na-liturgiya.jpg"
 ---
 
 *Разпятие падна върху свещеник в Гуаякил, Еквадор, по време на литургия, минути след като той проповядваше, че всички ще умрем. Какво казва Исус за подобни трагедии?*
